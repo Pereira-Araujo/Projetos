@@ -1,0 +1,34 @@
+
+main{
+    height:86vh;
+    overflow-y:hidden ;
+    background-image: url(/here/img/weare.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+section{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    padding-top:1.5rem;
+}
+article{
+    width:40rem;
+    font-size: 1.5rem;
+}
+
+@media(max-width:880px){
+    main{
+        background-position:center;
+        background-repeat: repeat;
+    }
+}
+@media(max-width:730px){
+    article{
+        padding:2rem;
+    
+    
+    }   
+  
+}

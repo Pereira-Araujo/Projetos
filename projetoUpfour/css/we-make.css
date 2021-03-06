@@ -1,0 +1,108 @@
+
+
+header {
+  margin-bottom: -0.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  height: 88vh;
+}
+
+@keyframes figure-animation {
+  0% {
+    transform: scale(0.3);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(auto);
+  }
+}
+#section-left {
+  width: 40%;
+}
+
+#section-left-animation {
+  animation-name: figure-animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  height: 30rem;
+}
+
+#section-right {
+  width: 60%;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+article {
+  padding-right: 1rem;
+}
+
+#section-right h2,
+p,
+ol,
+h3,
+form {
+  padding-bottom: 1rem;
+}
+
+input,
+textarea {
+  color: black;
+  font-size: 18px;
+  width: 30rem;
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+@media (max-width: 996px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  #section-right,
+  #section-left {
+    width: 100vw;
+  }
+  #section-left{
+    height: 20%;
+  }
+  #section-right {
+    height: 80%;
+    padding-top: 4rem;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #section-right h2,
+  p,
+  ol,
+  h3,
+  form {
+    padding: 1rem;
+  }
+  figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-left-animation {
+    height: 20rem;
+  }
+
+  input,
+  textarea {
+    width: 25rem;
+  }
+}
