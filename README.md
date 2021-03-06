@@ -9,4 +9,6 @@ O intuito desse repositório é reunir em um só lugar projetos ou *tentativas d
 
 **Nota** : Algumas pastas e códigos podem estar um pouco mal organizados, mas pretendo revisá-los na medida do possível.
 
+<img width=600 height=400 src="https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg">
+
 
