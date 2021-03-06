@@ -1,7 +1,6 @@
-# Projetos
-🚧🚧🚧🚧
-<br>
-O intuito desse repositório é reunir em um só lugar projetos ou *tentativas de*.
+# Projetos 🚧🚧🚧🚧
+
+#### O intuito desse repositório é reunir em um só lugar projetos ou *tentativas de*.
 
 #### No mais o respositório está atualmente organizado do seguinte modo(por enquanto):
 - [Projetos Vanilla](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla) : *Aqui estão os projetos do início dos meus estudos(em maioria), de Front-End. Todos os projetos aqui estão em HTML,CSS e JS*
