@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="doList.css" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Check-list:Muyembe</h1>
+  </header>
+  <main>
+
+    <button onclick="save()"> salvar</button>
+
+    <section class="name" id="segunda">
+      <h2>Segunda!</h2>
+      <table>
+        <tr>
+          <td class="name" id="1">Aula</td>
+          <td>19:00</td>
+          <td><input type="checkbox" class="checked" id="segunda1" onclick="done(1)" /></td>
+        </tr>
+        <tr>
+          <td class="name" id="2">Feedbacks</td>
+          <td>21:00</td>
+          <td><input type="checkbox" class="checked" id="segunda2" onclick="done(2)" /></td>
+        </tr>
+        <tr>
+          <td class="name" id="3">Standup de texto</td>
+          <td>21:00</td>
+          <td><input type="checkbox" class="checked" id="segunda3" onclick="done(3)" /></td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="name" id="terca">
+      <h2>Terça!</h2>
+      <table>
+        <tr>
+          <td class="name" id="4">Warmup</td>
+          <td>19:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(4)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="5">Feedback</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(5)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="6">Standup de texto</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(6)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="7">Exercício</td>
+          <td>23:59</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(7)" />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="name" id="quarta">
+      <h2>Quarta!</h2>
+      <table>
+        <tr>
+          <td class="name" id="8">Aula</td>
+          <td>19:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(8)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="9">Feedback</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(9)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="10">Standup de texto</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(10)" />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="name" id="quinta">
+      <h2>Quinta!</h2>
+      <table>
+        <tr>
+          <td class="name" id="11">Warmup</td>
+          <td>19:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(11)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="12">Standup de vídeo</td>
+          <td>20:30</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(12)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="13">Feedback</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(13)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="14">Exercício</td>
+          <td>23:59</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(14)" />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="name" id="sexta">
+      <h2>Sexta!</h2>
+      <table>
+        <tr>
+          <td class="name" id="15">Feedback</td>
+          <td>21:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(15)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="16">Projeto Quinzenal</td>
+          <td>19:00*</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(16)" />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="name" id="sabado">
+      <h2>Sábado!</h2>
+      <table>
+        <tr>
+          <td class="name" id="17">How to Learn</td>
+          <td>10:00</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(17)" />
+          </td>
+        </tr>
+        <tr>
+          <td class="name" id="18">Plantão</td>
+          <td>10:15</td>
+          <td>
+            <input type="checkbox" class="name" id="checked" onclick="done(18)" />
+          </td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <script src="doList.js"></script>
+
+</body>
+
+</html>
