@@ -15,12 +15,10 @@ article {
 @media (max-width: 880px) {
   #sobre__imagem-de-fundo {
     background-position: right;
-
   }
-  article{
-    width:44rem;
+  article {
+    width: 44rem;
   }
-  
 }
 @media (max-width: 730px) {
   article {

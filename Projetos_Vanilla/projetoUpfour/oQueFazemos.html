@@ -11,7 +11,9 @@
   <body>
     <header>
       <figure>
-        <a href="./paginaInicial.html"><img class="logotipo" src="./img/logo.png" /></a>
+        <a href="./paginaInicial.html"
+          ><img class="logotipo" src="./img/logo.png"
+        /></a>
       </figure>
       <nav class="menu">
         <a class="menu__link" href="./sobre.html">Quem<br />Somos</a>
@@ -21,39 +23,41 @@
     </header>
 
     <main>
-      <section id="section-left">
+      <section class="bloco-esquerdo">
         <figure>
           <a href="./paginaInicial.html"
-            ><img id="section-left-animation" src="./img/upbox.png"
+            ><img class="bloco-esquerdo__animacao" src="./img/upbox.png"
           /></a>
         </figure>
       </section>
 
-      <section id="section-right">
-        <article>
-          <h2>Nós Podemos Ajudar</h2>
+      <section class="bloco-direito">
+        <article class="bloco-direito__proposta">
+          <h2 class="bloco-direito__texto--margin">Nós Podemos Ajudar</h2>
 
-          <p>
+          <p class="bloco-direito__texto bloco-direito__texto--margin">
             Se você deseja empreender e sofreu preconceito e descrédito por ser
             de periferia, saiba que aqui somos DIFERENTES e podemos te ajudar a
             transformar seu <strong>sonho</strong> em realidade, oferecendo
             suporte em diversas áreas, dentre elas:
           </p>
 
-          <ol>
-            <li>Crédito pessoal!</li>
-            <li>Sistema de controle!</li>
-            <li>Orientação financeira!</li>
-          </ol>
+          <ul class="bloco-direito__texto--margin">
+            <li>- Crédito pessoal!</li>
+            <li>- Sistema de controle!</li>
+            <li>- Orientação financeira!</li>
+          </ul>
+          <br />
 
-          <h3>Quer saber mais?</h3>
+          <h3 class="bloco-direito__texto--margin">Quer saber mais?</h3>
+
           <form>
-            <span>Email</span>
-            <br />
+            <h4 class="form__titulo--centralizado">Email</h4>
+
             <input type="mail" />
-            <br />
-            <br />
-            <textarea rows="6" maxlength="500">Vamos bater um papo :D</textarea>
+
+            <textarea rows="6" cols="33"> </textarea>
+            <button class="form__botao">Enviar</button>
           </form>
         </article>
       </section>
