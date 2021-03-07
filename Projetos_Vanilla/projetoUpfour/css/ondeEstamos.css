@@ -1,17 +1,17 @@
 main {
   height: 100vh;
   width: auto;
-  display: grid;
+  display: flex;
   justify-content: space-around;
 }
 
-main p {
+.main__titulo {
   padding-top: 1rem;
   text-align: center;
   font-size: 1.5rem;
 }
 
-section {
+.galeria {
   width: 88vw;
   height: auto;
   display: grid;
@@ -20,18 +20,17 @@ section {
   padding-bottom: 2rem;
 }
 
-section figure img {
+.galeria__foto {
   width: 25rem;
   height: 18rem;
   filter: grayscale(80%);
 }
-section figure img:hover{
-  filter:none;
+.galeria__foto:hover {
+  filter: none;
 }
 figcaption {
   text-align: center;
 }
-
 
 /*
 
@@ -48,7 +47,7 @@ figcaption {
     width: 100%;
   }
 
-  section {
+  .galeria {
     width: 100%;
     grid-template-rows: repeat(3, 20rem);
     grid-template-columns: repeat(2, 2fr);
@@ -57,11 +56,14 @@ figcaption {
 }
 @media (max-width: 800px) {
   body {
-    height: 100vh;
     width: auto;
   }
+  main {
+    display: grid;
+    flex-direction: column;
+  }
 
-  section {
+  .galeria {
     width: auto;
     height: auto;
     overflow-y: hidden;
