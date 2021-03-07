@@ -1,8 +1,6 @@
-
-
-main{
+#inicio__imagem-de-fundo{
   background-image: url(/img/background-upfour.jpg);
-  background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
 }
 

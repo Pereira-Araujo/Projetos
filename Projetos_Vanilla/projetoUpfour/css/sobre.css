@@ -1,34 +1,29 @@
-
-main{
-    height:86vh;
-    overflow-y:hidden ;
-    background-image: url(/here/img/weare.png);
-    background-repeat:no-repeat ;
-    background-size: cover;
+#sobre__imagem-de-fundo {
+  background-image: url(../img/weare.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
-section{
-    width:100vw;
-    display:flex;
-    justify-content: center;
-    padding-top:1.5rem;
-}
-article{
-    width:40rem;
-    font-size: 1.5rem;
+article {
+  padding-top: 4rem;
+  width: 40rem;
+  font-size: 1.5rem;
 }
 
-@media(max-width:880px){
-    main{
-        background-position:center;
-        background-repeat: repeat;
-    }
-}
-@media(max-width:730px){
-    article{
-        padding:2rem;
-    
-    
-    }   
+@media (max-width: 880px) {
+  #sobre__imagem-de-fundo {
+    background-position: right;
+
+  }
+  article{
+    width:44rem;
+  }
   
+}
+@media (max-width: 730px) {
+  article {
+    padding: 2rem;
+  }
 }
