@@ -50,7 +50,6 @@ footer {
 
 @media (max-width: 720px) {
   header {
-    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -61,7 +60,6 @@ footer {
   .menu {
     width: 100vw;
     padding: 1rem 1rem;
-    display: flex;
-    justify-content: space-around;
+  
   }
 }
