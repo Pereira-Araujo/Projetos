@@ -1,120 +1,85 @@
-
-/*GENERAL STYLE*/ 
-:root{
+*{
   text-align:center;
 }
-    body{
-background:rgb(13, 15, 41);
- background-image:url(/imagens/background-luna.jpg);
-background-repeat:no-repeat;
-background-position-y: -10rem;
-font-family: Arial, Helvetica, sans-serif;
-
-        }
-
-/*IMAGE*/
-        main img {
-          width:10rem;
-          height:10rem;
-            border-radius: 100%;
-            display: fixed;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top:2rem;
-
-        }
-
-
-
-/*TOP DESCRIPTION*/
-
-article{
-    color:white;
-}
-
-/*LINKS CONTAINER*/        
-        nav {
-            margin-top:2rem;
-            display: flex;
-            flex-direction: column;
-        }
-
-/*ICONS*/
-.whats{
-background-image:url('https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png');
-background-repeat: no-repeat;
-background-size:2rem;
-background-position-y: 0.2rem;
-background-position-x: 0.5rem;
-}
-.facebook{
-background-image:url('https://i.pinimg.com/originals/41/b0/ed/41b0edd10bd1fcca1833c2e651fcfdaa.png');
-background-repeat: no-repeat;
-background-size:2rem;
-background-position-y: 0.2rem;
-background-position-x: 0.5rem;
-}
-
-.instagram{
-  background-image:url('https://thumbs.dreamstime.com/b/vetor-novo-do-%C3%ADcone-logotipo-da-c%C3%A2mera-de-instagram-com-ilustra%C3%A7%C3%B5es-modernas-projeto-inclina%C3%A7%C3%A3o-no-fundo-branco-136847957.jpg');
+body {
+  background-image: url(/imagens/background-luna.jpg);
   background-repeat: no-repeat;
-background-size:2rem;
-background-position-y: 0.2rem;
-background-position-x: 0.5rem;
-
+  background-position-y: -10rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width:auto;
+  display:flex;
+  flex-direction:column; 
+  justify-content:center;
 }
 
-.email{
-   background-image:url('https://www.mailbiz.com.br/wp-content/uploads/2014/07/emailmkt.png');
+
+ .header__imagem{
+  width:10rem;
+ }
+
+ .titulo {
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  color: white;
+ }
+
+nav{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+div {
+  width: 20rem;
+  height: 2rem;
+  margin-top: 1rem;
+  background: white;
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+
+}
+.nav__link {
   background-repeat: no-repeat;
-background-size:2rem;
-background-position-y: 0.2rem;
-background-position-x: 0.5rem;
+  background-size: 2rem;
+  background-position-y: 0.2rem;
+  background-position-x: 0.5rem; 
+ }
+
+ .nav__icone--whatsApp {
+  background-image: url("https://seeklogo.com/images/W/whatsapp-icon-logo-8CA4FB831E-seeklogo.com.png");
+ }
+ .nav__icone--facebook {
+  background-image: url("https://i.pinimg.com/originals/41/b0/ed/41b0edd10bd1fcca1833c2e651fcfdaa.png");
+ }
+ .nav__icone--instagram {
+  background-image: url("https://thumbs.dreamstime.com/b/vetor-novo-do-%C3%ADcone-logotipo-da-c%C3%A2mera-de-instagram-com-ilustra%C3%A7%C3%B5es-modernas-projeto-inclina%C3%A7%C3%A3o-no-fundo-branco-136847957.jpg");
+ }
+ .nav__icone--email {
+  background-image: url("https://www.mailbiz.com.br/wp-content/uploads/2014/07/emailmkt.png");
+ }
+ a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgb(25, 118, 210);
 }
 
-
-/*LIST*/
-
-nav div{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:20rem;
-  height:2rem;
-  margin-top:1rem;
-  background:white;
-  border-radius:0.5rem;
-  padding-top:0.5rem;
-}
-a{
- text-decoration: none;
-font-weight: bolder;
-color:rgb(25, 118, 210);
-
-}
-
-
-/*FOOTER DIVULGATION*/
 
 footer{
-  display: inline-flex;
-  margin:5px;
   height:10rem;
-
+  display:flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin:5px;
 }
 
-.letterLogo{
-   width:3rem;
-   height:3rem;
-    border-radius:100%;
-    margin-top:6rem;
-    margin-right:1rem;
-
+.footer__logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+ 
 }
-footer p{
-  padding-top:6.3rem;
-  color:white;
-  font-size:14px;
-  margin-right:1rem;
-
+.footer__texto {
+  color: white;
+  font-size: 14px;
+ 
 }
