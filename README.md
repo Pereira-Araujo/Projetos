@@ -1,5 +1,7 @@
 # Projetos 🚧🚧🚧🚧
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 #### O intuito desse repositório é reunir em um só lugar projetos ou *tentativas de*.
 
 #### No mais o respositório está atualmente organizado do seguinte modo(por enquanto):
