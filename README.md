@@ -17,7 +17,7 @@
 
  - [x] Projeto Upfour
  - [x] Re_Pedagogia
- - [ ] Labetube
+ - [x] Labetube
  - [x] Luna Social Media
  - [ ] OtherSide Store
  - [ ] Do List
