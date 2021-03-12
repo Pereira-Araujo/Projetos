@@ -2,9 +2,7 @@
 
 ## Exercício proposto pela [Labenu](https://www.labenu.com.br/)
 
-A ideia proposta é usar boas para práticas para a construção de uma página-web responsiva. 
-
-
+A ideia proposta é usar boas para práticas para a construção de uma página-web responsiva.
 
 ## Checklist
 
@@ -20,13 +18,9 @@ Segue abaixo algumas imagens do resultado.
 
 ![lab1](https://user-images.githubusercontent.com/60116988/98982677-82390480-24fe-11eb-9c47-fefe4b82b905.png)
 
-
-![lab2](https://user-images.githubusercontent.com/60116988/98982661-7ea57d80-24fe-11eb-8985-e19d1caf9903.png)
 ![lab3](https://user-images.githubusercontent.com/60116988/98982656-7c432380-24fe-11eb-9aac-0c6b4812cf1f.png)
 
-
 ## Detalhes em telas menores
-
 
 ![lab4r](https://user-images.githubusercontent.com/60116988/98982650-7a796000-24fe-11eb-93df-934e7074c832.png)
 ![lab5r](https://user-images.githubusercontent.com/60116988/98982692-86652200-24fe-11eb-9da7-ac20c8e68379.png)
