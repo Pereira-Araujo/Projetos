@@ -4,65 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="css/geral.css" rel="stylesheet" type="text/css" />
-    <link href="css/ctrl-estoque.css" rel="stylesheet" type="text/css" />
+    <link href="./css/geral.css" rel="stylesheet" type="text/css" />
+    <link href="./css/ctrl-estoque.css" rel="stylesheet" type="text/css" />
 
     <title>Controle de Estoque</title>
   </head>
 
   <body>
-    <!--TOP APRESENTAÇÃO-->
-    <div class="title_top_style">
-      <h1><span>OtherSide</span> Literatura!</h1>
-      <p>
-        Um <strong>outro lado Z💀/</strong> do que há de melhor na literatura
-        universal de <b>terror!</b>
-      </p>
-    </div>
-    <!--TOP NAV-->
-    <nav>
-      <a href="index.html">Página Inicial</a>
-      <a href="ctrl-estoque.html">Controle de Estoque</a>
-      <a href="add-produto.html">Adicionar Produto</a>
-      <a href="funcionarios.html">Funcionários</a>
-    </nav>
+  <section class="container-topo">
+      <h1><span class="container-topo__titulo">OtherSide</span> Literatura!</h1>
+      <p class="container-topo__texto">Um <strong>outro lado Z💀/</strong> do que há de melhor na literatura universal de <strong>terror!</strong></p> 
+      
+  </section>
 
-    <h2 id="title-control">Controle de Estoque</h2>
+  <nav>
+      <a class="nav__link" href="./index.html">Página Inicial</a>
+      <a class="nav__link" href="./ctrl-estoque.html">Controle de Estoque</a>
+      <a class="nav__link" href="./add-produto.html">Adicionar Produto</a>
+      <a class="nav__link" href="./funcionarios.html">Funcionários</a>
+  </nav>
 
- <main>
-    <article id="table-container">
+    <h2 class="titulo">Controle de Estoque</h2>
+
+    <section>
       
         
         <figure>
-          <img src="img/fanu.jpg" alt="Carmilla" />
+          <img class="section__icone" src="img/fanu.jpg" alt="Carmilla" />
           <figcaption>Carmilla- A Vampira</figcaption>
           <figcaption>39,90</figcaption>
           <figcaption>Estoque: 50</figcaption>
         </figure>
 
         <figure>
-          <img src="img/lovecracft.jpg" alt="O Caminho de Cthulhu" />
+          <img class="section__icone" src="img/lovecracft.jpg" alt="O Caminho de Cthulhu" />
           <figcaption>O Caminho de Cthulhu</figcaption>
           <figcaption>57,28</figcaption>
           <figcaption>Estoque: 120</figcaption>
         </figure>
 
         <figure>
-          <img src="img/poe.jpg" alt="Edgar Allan Poe" />
+          <img class="section__icone" src="img/poe.jpg" alt="Edgar Allan Poe" />
           <figcaption>Histórias Extraordinárias</figcaption>
           <figcaption>29,99</figcaption>
           <figcaption>Estoque: 32</figcaption>
         </figure>
 
         <figure>
-          <img src="img/ridcliffe.jpg" alt="Os misterios de Udolpho" />
+          <img class="section__icone" src="img/ridcliffe.jpg" alt="Os misterios de Udolpho" />
           <figcaption>Os Mistérios de Udolpho</figcaption>
           <figcaption>78,00</figcaption>
           <figcaption>Estoque: 45</figcaption>
         </figure>
 
-        <!-- Crie mais uma linha desta tabela abaixo \/ -->
-    </article>
- </main>  
+      </section>
   </body>
 </html>

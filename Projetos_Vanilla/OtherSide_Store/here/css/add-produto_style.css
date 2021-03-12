@@ -1,32 +1,32 @@
-/*CONTEUDO*/
 
-body{
-background-image: url(/sistema-loja/img/add-produto_back.jpg);
+
+
+.container-formulario{
+color:white;
+
+height:80vh;
+background-image: url(../img/casaBuhhh.jpg);
 background-repeat: no-repeat;
 background-size:100% 60rem;
 background-position-y:-4rem;
+display:flex;
+justify-content: center;
 }
 
-#add-product{
-    font-family:"skeleton";
-    font-size:2rem;
-    
-}
-
-#container-main{
-text-align:center;
-margin-top:2rem;
-color:white;
-margin-top:2rem;
-
-}
-
-#form{
+form{
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-#button{
+.form__titulo{
+    font-family:"skeleton";
+    font-size:2rem;
+    margin-top:2rem;
+    
+}
+
+
+.form__button{
     margin-top:2rem;
     font-family:"skeleton";
     font-weight: bolder;
@@ -36,19 +36,14 @@ margin-top:2rem;
 
 }
 
-/*RESPONSIVO*/
 
 @media(max-width:775px){
 
-    body{
+    .container-formulario{
         background-image: none;
         background:black;
     }
-    #container-main{
-        padding-bottom:2rem;
-        margin:1rem;
-    }
-
+  
 
 
 

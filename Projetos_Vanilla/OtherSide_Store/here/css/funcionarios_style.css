@@ -1,23 +1,24 @@
 body{
     background:black;
     color:white;
+    height:100vh;
 }
 
-ul{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-list-style: none;
-
-}
-h2{
+.titulo{
     text-align:center;
     margin-left:2rem;
     margin-top:2rem;
     margin-bottom:2rem;
 }
 
-ul img{
+.funcionarios{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
+}
+
+.funcionarios__imagem{
     margin-left:4rem;
     margin-top:1rem;
     width:6rem;
@@ -33,25 +34,10 @@ figcaption{
 }
 
 
-/*RESPONSIVO FUNCIONARIOS*/
 @media(max-width:775px){
-    ul{
-        display:unset;
-        text-align:center;
-    }
-    
-   ul img{
-        margin-left:0px;
-    }
-    h2{
-        margin-left:0px;
-    }
+ .funcionarios{
+     flex-direction:column;
+     align-items:center;
 
-    body{
-        padding-bottom:4rem;
-
-    }
-    figcaption{
-        margin-left:0rem;
-    }
+ }
 }

@@ -3,41 +3,24 @@ body{
     color:white;
 }
 
-#title-control{
+.titulo{
     text-align:center;
     margin:2rem 2rem;
 }
 
-#table-container{
+section{
     display:flex;
     justify-content: space-around;
-  
+  }
 
-}
-
-figure img{
+.section__icone{
     width:12rem;
 }
 
 @media(max-width:900px){
 
-    main{
-        display:flex;
-        justify-content: center;
-    }
-
-    #table-container{
-        display:grid;
-        grid-template-columns:50% 50%;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 2rem;
-        
-  }
-}
-@media(max-width:530px){
-    #table-container{
-        display:grid;
-        grid-template-columns:100%;
-
+    section{
+        align-items: center;
+        flex-direction:column;
     }
 }

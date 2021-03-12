@@ -5,31 +5,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/add-produto_style.css" rel="stylesheet" type="text/css">
-    <link href="css/geral.css" rel="stylesheet" type="text/css">
+    <link href="./css/add-produto_style.css" rel="stylesheet" type="text/css">
+    <link href="./css/geral.css" rel="stylesheet" type="text/css">
 
 	<title>Adicionar Produtos</title>
 </head>
 
 <body>
-	  <!--TOP APRESENTAÇÃO-->
-      <div class="title_top_style">
-        <h1><span>OtherSide</span> Literatura!</h1>
-        <p>Um <strong>outro lado Z💀/</strong> do que há de melhor na literatura universal de <b>terror!</b></p> 
+	<section class="container-topo">
+        <h1><span class="container-topo__titulo">OtherSide</span> Literatura!</h1>
+        <p class="container-topo__texto">Um <strong>outro lado Z💀/</strong> do que há de melhor na literatura universal de <strong>terror!</strong></p> 
         
-    </div>
-    <!--TOP NAV-->
+    </section>
+  
     <nav>
-        <a href="index.html">Página Inicial</a>
-        <a href="ctrl-estoque.html">Controle de Estoque</a>
-        <a href="add-produto.html">Adicionar Produto</a>
-        <a href="funcionarios.html">Funcionários</a>
+        <a class="nav__link" href="./index.html">Página Inicial</a>
+        <a class="nav__link" href="./ctrl-estoque.html">Controle de Estoque</a>
+        <a class="nav__link" href="./add-produto.html">Adicionar Produto</a>
+        <a class="nav__link" href="./funcionarios.html">Funcionários</a>
     </nav>
+  
 
-    <!--CONTEÚDO-->
-    <main id="container-main">
-	<h2 id="add-product">Adicionar Produto</h2>
-	<form id="form" action="">
+    
+    <section class="container-formulario">
+
+	<form>
+        <h2 class="form__titulo">Adicionar Produto</h2>
+
 		<div>
 			<label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
@@ -37,28 +39,24 @@
         
         <div>
             <label for="descricao">Descrição do produto: </label>
-            <!-- Adicione o id apropriado para o input abaixo -->
             <input type="text" id="descricao" name="descrição">
         </div>
         
         <div>
             <label for="preco">Preço (em R$): </label>
-            <!-- Adicione o id apropriado e o type para receber números abaixo -->
             <input type="number" id="preco" name="preço">
         </div>
         
         <div>
-            <!-- Preencha as propriedades necessárias para os elementos abaixo -->
             <label for="quantidade">Quantidade disponível: </label>
             <input type="number" id="quantidade" name="quantidade">
         </div>
 
-        <div class="form-add">
-            <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button id="button" type="submit">Adicionar</button>
-        </div>
+       
+            <button class="form__button" type="submit">Adicionar</button>
+       
 
     </form>
-      </main>
+</section>
 </body>
 </html>
