@@ -5,10 +5,10 @@
         flex-direction:column;
         justify-content: center;        
     }
-    nav span{
+    .nav__titulo{
         margin-right:1.5rem;
     }
-    #search{
+    #buscador{
         margin-top:1rem;
         height:2rem;
         width:15rem;
@@ -19,7 +19,5 @@
         margin-right:1rem;
     }
 
-
-   
 
 }
