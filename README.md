@@ -21,7 +21,7 @@
  - [x] Re_Pedagogia
  - [x] Labetube
  - [x] Luna Social Media
- - [ ] OtherSide Store
+ - [x] OtherSide Store
  - [ ] Do List
  - [ ] Planner
 
