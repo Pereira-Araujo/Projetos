@@ -18,26 +18,26 @@ const blocoQuinta = document.getElementById("quinta");
 const blocoSexta = document.getElementById("sexta");
 const blocoSabado = document.getElementById("sabado");
 
-const clockTask = document.getElementById("clockTask");
+const relogio = document.getElementById("relogio");
 
 
-const add = () => {
+const adcionaTarefa = () => {
   if (tarefa.value !== " ") {
 
     if (diasDaSemana.value == domingo.value) {
-      blocoDomingo.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoDomingo.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == segunda.value) {
-      blocoSegunda.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoSegunda.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == terca.value) {
-      blocoTerca.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoTerca.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == quarta.value) {
-      blocoQuarta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoQuarta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == quinta.value) {
-      blocoQuinta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoQuinta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == sexta.value) {
-      blocoSexta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoSexta.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     } else if (diasDaSemana.value == sabado.value) {
-      blocoSabado.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${clockTask.value}</p>`;
+      blocoSabado.innerHTML += `<p onclick="risk(this)">${tarefa.value}-${relogio.value}</p>`;
     }
     
   } else {
@@ -47,11 +47,11 @@ const add = () => {
   tarefa.value = " ";
 };
 
-const risk = (obj) => {
-  obj.innerHTML = `<p class="riskText">${obj.innerHTML}</p>`;
+const risk = (objeto) => {
+  objeto.innerHTML = `<p class="riskText">${objeto.innerHTML}</p>`;
 };
 
-const clearContainer = () => {
+const limparTudo = () => {
   blocoDomingo.innerHTML = " ";
   blocoSegunda.innerHTML = " ";
   blocoTerca.innerHTML = " ";

@@ -23,6 +23,7 @@
       <form action="">
         <label for="tarefa">Nova tarefa:</label>
         <input type="text" id="tarefa" />
+
         <select name="dias-semana" id="dias-semana">
           <option value="domingo">Domingo</option>
           <option value="segunda">Segunda-feira</option>
@@ -35,16 +36,17 @@
       </form>
 
       <div id="seletorHoras">
-        <input type="time" id="clockTask" min="00:00" max="23:00" />
+        <input type="time" id="relogio" min="00:00" max="23:00" />
       </div>
 
-      <div id="botoes">
-        <button class="botoesClass" onclick="add()">Criar Tarefa</button>
+      <div class="botoes">
+        <button class="botoes__geral" onclick="adcionaTarefa()">Criar Tarefa</button>
 
-        <button class="botoesClass" onclick="clearContainer()">
+        <button class="botoes__geral" onclick="limparTudo()">
           Limpar Tarefas
         </button>
       </div>
+
     </header>
     <main>
       <div class="semana domingo">

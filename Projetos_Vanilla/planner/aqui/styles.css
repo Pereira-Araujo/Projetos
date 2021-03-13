@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  overflow-x:hidden;
 }
 
 body {
@@ -18,7 +19,7 @@ form {
   justify-content: center;
   align-items: center;
 }
-#botoes {
+.botoes {
   display: flex;
   justify-content: center;
 }
@@ -28,7 +29,7 @@ form {
   justify-content: center;
 }
 
-.botoesClass {
+.botoes__geral {
   padding: 0.3rem;
   margin: 1rem;
 }
