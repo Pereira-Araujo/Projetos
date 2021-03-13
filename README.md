@@ -1,5 +1,6 @@
 # Projetos 🚧🚧🚧🚧
-
+<img src="https://img.shields.io/github/languages/count/Pereira-Araujo/Projetos"/>
+<br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 #### O intuito desse repositório é reunir em um só lugar projetos ou *tentativas de*.
