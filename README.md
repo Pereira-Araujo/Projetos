@@ -1,8 +1,9 @@
 # Projetos 🚧🚧🚧🚧
-<img src="https://img.shields.io/github/languages/count/Pereira-Araujo/Projetos?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/Projetos?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/Projetos?style=flat-square"/>
-<br/>
+<img src="https://img.shields.io/github/languages/count/Pereira-Araujo/Projetos?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/Projetos?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/Projetos?style=flat-square"/> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<img width=600 height=300 src="https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg">
+
 
 #### O intuito desse repositório é reunir em um só lugar projetos ou *tentativas de*.
 
@@ -13,7 +14,7 @@
 
  [Projeto Upfour](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [Re_Pedagogia](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [Labetube](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)
 
-**|** [Luna Social Media](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [OtherSide Store](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [CheckList](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [Planner](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)
+[Luna Social Media](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [OtherSide Store](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [CheckList](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [Planner](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)
 
 #### Em Revisão:
 
@@ -28,6 +29,5 @@
  - [ ] WhatsLab
  
 
-<img width=600 height=400 src="https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg">
 
 
