@@ -14,11 +14,6 @@
  [Projeto Upfour](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [Re_Pedagogia](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [Labetube](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube) **|** 
 [Luna Social Media](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [OtherSide Store](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [CheckList](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [Planner](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)
 
-
-**Nota 1**: Cada pasta de projeto possui seu **próprio arquivo em markdown** com *prints* e uma *breve explicação* sobre os referidos projetos, o nome desse arquivo sempre é nomeado com `Nome_Que_Remete_Ao_Projeto_README`
-
-**Nota 2** : Algumas pastas e códigos podem estar um pouco mal organizados(principalmente pelo fato de eu estar re-organizando meu GitHub), mas pretendo revisá-los na medida do possível.
-
 - Em Revisão:
 
 
