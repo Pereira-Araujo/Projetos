@@ -55,7 +55,6 @@ class PaginaInicial extends React.Component {
   onChangeFotoDoPost = (event) => {
     this.setState({ fotoPost: event.target.value });
   };
-  //checkpoint 2
 
   render() {
     const postDosUsuarios = this.state.usuarios.map((usuario) => {
