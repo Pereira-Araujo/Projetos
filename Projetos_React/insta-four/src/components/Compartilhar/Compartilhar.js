@@ -1,59 +1,49 @@
-import React, {
-    Component
-} from 'react'
-import './Compartilhar.css'
-import facebook from '../../img/facebook.svg'
-import instagram from '../../img/instagram.svg'
-import twitter from '../../img/twitter.svg'
-
-
+import React, { Component } from "react";
+import facebook from "../../Compartilhar__imagem/facebook.svg";
+import instagram from "../../Compartilhar__imagem/instagram.svg";
+import twitter from "../../Compartilhar__imagem/twitter.svg";
+import {Compartilhar, Compartilhar__imagem} from "./CompartilharEstilo"
 
 export class Compartilhar extends Component {
-    state = {
-        compartilhar: ' ',
-    }
+  state = {
+    compartilhar: " ",
+  };
 
+  onInstagram = () => {
+    console.log("Post compartilhado no instagram");
+  };
+  onFacebook = () => {
+    console.log("Post compartilhado no Facebook");
+  };
+  onTwitter = () => {
+    console.log("Post compartilhado no twitter");
+  };
 
-    onInstagram = () => {
-        console.log('Post compartilhado no instagram')
-    }
-    onFacebook = () => {
-        console.log('Post compartilhado no Facebook')
-    }
-    onTwitter = () => {
+  render() {
 
-        console.log('Post compartilhado no twitter')
-    }
-
-
-
-    render() {
-
-        console.log(this.state.compartilhar)
-
-        return <div className = {'compartilhar-class'} >
-
-        <img
-        src = {instagram}
-        value = {this.onClickComentario}
-        onClick = {this.onInstagram}
-        alt = 'instagram' 
+    return (
+      <Compartilhar>
+        <Compartilhar__imagem
+          src={instagram}
+          value={this.onClickComentario}
+          onClick={this.onInstagram}
+          alt="instagram"
         />
 
-        <img
-        src = {facebook}
-        value = {this.onClickComentario}
-        onClick = {this.onFacebook}
-        alt = 'facebook' 
+        <Compartilhar__imagem
+          src={facebook}
+          value={this.onClickComentario}
+          onClick={this.onFacebook}
+          alt="facebook"
         />
 
-        <img
-        src = {twitter}
-        value = {this.onClickComentario}
-        onClick = {this.onTwitter}
-        alt = 'twitter'
+        <Compartilhar__imagem
+          src={twitter}
+          value={this.onClickComentario}
+          onClick={this.onTwitter}
+          alt="twitter"
         />
-    </div>
-     }
-
+      </Compartilhar>
+    );
+  }
 }
