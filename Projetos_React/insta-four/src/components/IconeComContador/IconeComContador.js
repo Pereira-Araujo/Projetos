@@ -1,10 +1,10 @@
 import React from 'react'
-import './IconeComContador.css'
+import {ContadorContainer,ImagemIcone} from './ContadorEStilo.js'
 
 export function IconeComContador(props) {
-	return <div className={'icon-container'}>
-		<img alt={'Icone'} src={props.icone} onClick={props.onClickIcone}/>
+	return <ContadorContainer>
+		<ImagemIcone alt={'Icone'} src={props.icone} onClick={props.onClickIcone}/>
 
 		<p>{props.valorContador}</p>
-	</div>
+	</ContadorContainer>
 }

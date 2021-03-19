@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import './SecaoComentario.css'
+import React, {Component} from 'react';
+import {ContainerComentario, Comentario} from "./ComentarioEstilo.js";
 
 export class SecaoComentario extends Component {
 	state = {
@@ -17,8 +17,8 @@ export class SecaoComentario extends Component {
 	render() {
 
 
-		return <div className={'comment-container'}>
-			<input
+		return <ContainerComentario>
+			<Comentario
 				className={'input-comentario'}
 				placeholder={'Comentário'}
 				value={this.onClickComentario}
@@ -29,7 +29,7 @@ export class SecaoComentario extends Component {
 
 		
 
-		</div>
+		</ContainerComentario>
 
 	}
 
