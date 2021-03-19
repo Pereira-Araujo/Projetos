@@ -7,6 +7,8 @@ export const PostagemContainer = styled.div`
   margin-bottom: 10px;
   background: white;
   box-shadow: -8px 17px 11px -3px rgba(0, 0, 0, 0.75);
+  border-radius:10%;
+
 `;
 export const PostagemHeader = styled.div`
   height: 40px;
