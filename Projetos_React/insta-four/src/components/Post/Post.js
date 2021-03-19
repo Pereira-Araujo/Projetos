@@ -9,7 +9,7 @@ import iconeComentario from "../../img/comment_icon.svg";
 
 import iconeCompartilhar from "../../img/share.svg";
 
-import { Compartilhar } from "../Compartilhar/Compartilhar.js";
+import { CompartilharApp } from "../Compartilhar/Compartilhar.js";
 import { SecaoComentario } from "../SecaoComentario/SecaoComentario";
 
 import {
@@ -17,6 +17,7 @@ import {
   PostagemHeader,
   PostagemFoto,
   PostagemFooter,
+  UsuarioFoto
 } from "./PostEstilo";
 
 class Post extends React.Component {
@@ -101,7 +102,7 @@ class Post extends React.Component {
     let compartilhar;
 
     if (this.state.compartilhar) {
-      compartilhar = <Compartilhar />;
+      compartilhar = <CompartilharApp />;
     }
 
     return (

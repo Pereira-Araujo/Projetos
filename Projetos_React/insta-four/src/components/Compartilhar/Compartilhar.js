@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import facebook from "../../Compartilhar__imagem/facebook.svg";
-import instagram from "../../Compartilhar__imagem/instagram.svg";
-import twitter from "../../Compartilhar__imagem/twitter.svg";
-import { Compartilhar, Compartilhar__imagem } from "./CompartilharEstilo";
+import facebook from "../../img/facebook.svg";
+import instagram from "../../img/instagram.svg";
+import twitter from "../../img/twitter.svg";
+import { Compartilhar, CompartilharImagem } from "./CompartilharEstilo";
 
-export class Compartilhar extends Component {
+export class CompartilharApp extends Component {
   state = {
     compartilhar: " ",
   };
@@ -22,21 +22,21 @@ export class Compartilhar extends Component {
   render() {
     return (
       <Compartilhar>
-        <Compartilhar__imagem
+        <CompartilharImagem
           src={instagram}
           value={this.onClickComentario}
           onClick={this.onInstagram}
           alt="instagram"
         />
 
-        <Compartilhar__imagem
+        <CompartilharImagem
           src={facebook}
           value={this.onClickComentario}
           onClick={this.onFacebook}
           alt="facebook"
         />
 
-        <Compartilhar__imagem
+        <CompartilharImagem
           src={twitter}
           value={this.onClickComentario}
           onClick={this.onTwitter}
@@ -46,3 +46,4 @@ export class Compartilhar extends Component {
     );
   }
 }
+export default CompartilharApp;

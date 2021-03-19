@@ -6,7 +6,7 @@ export const Compartilhar = styled.section`
   justify-content: center;
 `;
 
-export const Compartilhar__imagem = styled.img`
+export const CompartilharImagem = styled.img`
   width: 24px;
   margin: 8px;
 `;
