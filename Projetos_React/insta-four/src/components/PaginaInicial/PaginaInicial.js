@@ -1,9 +1,13 @@
 import React from "react";
 import Post from "../Post/Post";
+import SendIcon from "@material-ui/icons/Send";
+
+
 import {
   Container,
   InputAdcionar,
   InputContainer,
+  Botao
 } from "./PaginaInicialEstilo";
 class PaginaInicial extends React.Component {
   state = {
@@ -68,33 +72,37 @@ class PaginaInicial extends React.Component {
 
     return (
       <Container>
+        <h2>Insta4</h2>
 
-          <h2>Insta4</h2>
+        <InputContainer>
+          <InputAdcionar
+            value={this.state.nomeUsuario}
+            onChange={this.onChangeNomeDoUsuario}
+            placeholder={"Nome do Usuário"}
+          />
 
-          <InputContainer>
-            <InputAdcionar
-              value={this.state.nomeUsuario}
-              onChange={this.onChangeNomeDoUsuario}
-              placeholder={"Nome do Usuário"}
-            />
+          <InputAdcionar
+            value={this.state.fotoUsuario}
+            onChange={this.onChangeFotoDoUsuario}
+            placeholder={"Link Para a Foto Do Perfil"}
+          />
 
-            <InputAdcionar
-              value={this.state.fotoUsuario}
-              onChange={this.onChangeFotoDoUsuario}
-              placeholder={"Link Para a Foto Do Perfil"}
-            />
+          <InputAdcionar
+            value={this.state.fotoPost}
+            onChange={this.onChangeFotoDoPost}
+            placeholder={"Link Para a Foto Do Post"}
+          />
+          <Botao
+            variant="contained"
+            color="primary"
+            type={"submit"}
+            onClick={this.adicionaPost}
+          >
+            <SendIcon />
+          </Botao>
+        </InputContainer>
 
-            <InputAdcionar
-              value={this.state.fotoPost}
-              onChange={this.onChangeFotoDoPost}
-              placeholder={"Link Para a Foto Do Post"}
-            />
-            <button type={"submit"} onClick={this.adicionaPost}>
-              Postar
-            </button>
-          </InputContainer>
-
-          {postDosUsuarios}
+        {postDosUsuarios}
       </Container>
     );
   }

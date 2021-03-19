@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Button from "@material-ui/core/Button";
+
 
 export const Container = styled.main`
 
@@ -17,6 +19,7 @@ export const Container = styled.main`
 
 export const InputAdcionar = styled.input`
   margin: 4px;
+  
 `;
 
 export const InputContainer = styled.div`
@@ -24,3 +27,8 @@ export const InputContainer = styled.div`
   margin-bottom: 10px;
   margin: 2px;
 `;
+
+export const Botao = styled(Button)`
+height:24px;
+
+`
