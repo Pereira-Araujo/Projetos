@@ -12,9 +12,12 @@ import iconeCompartilhar from "../../img/share.svg";
 import { Compartilhar } from "../Compartilhar/Compartilhar.js";
 import { SecaoComentario } from "../SecaoComentario/SecaoComentario";
 
-import {PostagemContainer,PostagemHeader,PostagemFoto,PostagemFooter} from "./PostEstilo"
-
-
+import {
+  PostagemContainer,
+  PostagemHeader,
+  PostagemFoto,
+  PostagemFooter,
+} from "./PostEstilo";
 
 class Post extends React.Component {
   state = {

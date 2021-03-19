@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import facebook from "../../Compartilhar__imagem/facebook.svg";
 import instagram from "../../Compartilhar__imagem/instagram.svg";
 import twitter from "../../Compartilhar__imagem/twitter.svg";
-import {Compartilhar, Compartilhar__imagem} from "./CompartilharEstilo"
+import { Compartilhar, Compartilhar__imagem } from "./CompartilharEstilo";
 
 export class Compartilhar extends Component {
   state = {
@@ -20,7 +20,6 @@ export class Compartilhar extends Component {
   };
 
   render() {
-
     return (
       <Compartilhar>
         <Compartilhar__imagem

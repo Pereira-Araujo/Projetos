@@ -1,6 +1,5 @@
-import React from "react"
+import React from "react";
 import styled from "styled-components";
-
 
 export const MainStyle = styled.main`
   background: linear-gradient(
@@ -27,4 +26,3 @@ export const NovoPostInputStyle = styled.div`
   margin-bottom: 10px;
   margin: 2px;
 `;
-
