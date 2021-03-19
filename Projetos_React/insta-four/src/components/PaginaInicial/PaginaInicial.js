@@ -2,12 +2,11 @@ import React from "react";
 import Post from "../Post/Post";
 import SendIcon from "@material-ui/icons/Send";
 
-
 import {
   Container,
   InputAdcionar,
   InputContainer,
-  Botao
+  Botao,
 } from "./PaginaInicialEstilo";
 class PaginaInicial extends React.Component {
   state = {
@@ -48,15 +47,15 @@ class PaginaInicial extends React.Component {
   };
 
   onChangeNomeDoUsuario = (event) => {
-    this.setState({ nomeUsuario: event.target.value });
+    this.setState({ nomeUsuario: event.target.value});
   };
 
   onChangeFotoDoUsuario = (event) => {
-    this.setState({ fotoUsuario: event.target.value });
+    this.setState({ fotoUsuario: event.target.value});
   };
 
   onChangeFotoDoPost = (event) => {
-    this.setState({ fotoPost: event.target.value });
+    this.setState({ fotoPost: event.target.value});
   };
 
   render() {

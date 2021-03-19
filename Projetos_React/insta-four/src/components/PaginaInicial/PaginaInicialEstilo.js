@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import Button from "@material-ui/core/Button";
 
-
 export const Container = styled.main`
-
   background: linear-gradient(
     90deg,
     hsla(154, 100%, 76%, 1) 0%,
@@ -16,10 +14,8 @@ export const Container = styled.main`
   align-items: center;
 `;
 
-
 export const InputAdcionar = styled.input`
   margin: 4px;
-  
 `;
 
 export const InputContainer = styled.div`
@@ -29,6 +25,5 @@ export const InputContainer = styled.div`
 `;
 
 export const Botao = styled(Button)`
-height:24px;
-
-`
+  height: 24px;
+`;
