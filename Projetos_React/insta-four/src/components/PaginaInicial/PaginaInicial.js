@@ -1,10 +1,9 @@
 import React from "react";
 import Post from "../Post/Post";
 import {
-  ContainerStyle,
-  MainStyle,
-  InputStyle,
-  NovoPostInputStyle,
+  Container,
+  InputAdcionar,
+  InputContainer,
 } from "./PaginaInicialEstilo";
 class PaginaInicial extends React.Component {
   state = {
@@ -68,24 +67,24 @@ class PaginaInicial extends React.Component {
     });
 
     return (
-      <MainStyle>
-        <ContainerStyle>
+      <Container>
+
           <h2>Insta4</h2>
 
-          <NovoPostInputStyle>
-            <InputStyle
+          <InputContainer>
+            <InputAdcionar
               value={this.state.nomeUsuario}
               onChange={this.onChangeNomeDoUsuario}
               placeholder={"Nome do Usuário"}
             />
 
-            <InputStyle
+            <InputAdcionar
               value={this.state.fotoUsuario}
               onChange={this.onChangeFotoDoUsuario}
               placeholder={"Link Para a Foto Do Perfil"}
             />
 
-            <InputStyle
+            <InputAdcionar
               value={this.state.fotoPost}
               onChange={this.onChangeFotoDoPost}
               placeholder={"Link Para a Foto Do Post"}
@@ -93,11 +92,10 @@ class PaginaInicial extends React.Component {
             <button type={"submit"} onClick={this.adicionaPost}>
               Postar
             </button>
-          </NovoPostInputStyle>
+          </InputContainer>
 
           {postDosUsuarios}
-        </ContainerStyle>
-      </MainStyle>
+      </Container>
     );
   }
 }
