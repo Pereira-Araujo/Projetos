@@ -1,12 +1,12 @@
 import React from "react";
-import Cadastrar from "./Componentes/Cadastrar";
-import Lista from "./Componentes/Lista";
+import Cadastrar from "./Cadastrar";
+import Lista from "./Lista";
 import styled from "styled-components";
 import {
   BotaoIrLista,
   BotaoIrCadastro
   
- } from './Componentes/EstiloApp'
+ } from '../EstiloApp'
 
 
 const Principal = styled.main`

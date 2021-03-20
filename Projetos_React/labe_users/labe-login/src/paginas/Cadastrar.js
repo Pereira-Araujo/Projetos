@@ -4,7 +4,7 @@ import axios from "axios";
 import {
   Container,
   BoxCadastro
-} from "../Componentes/EstiloApp";
+} from "../EstiloApp";
 
 class Cadastrar extends React.Component {
   state = {
