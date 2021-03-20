@@ -1,12 +1,17 @@
 import React from "react";
 import axios from "axios";
+import Button from '@material-ui/core/Button';
+
+
 
 import {
   Container,
-  BoxCadastro
-} from "../EstiloApp";
+  CardCadastro,
+  Entrada,
+  TextoInicial
+} from "./CadastroEstilo";
 
-class Cadastrar extends React.Component {
+class Cadastro extends React.Component {
   state = {
     lista: [],
     nomeUsuario: "",
@@ -41,7 +46,7 @@ class Cadastrar extends React.Component {
         alert("Cadastro feito com sucesso!");
         this.setState({ nomeUsuario: "", emailUsuario: "" });
       })
-      .catch((error) => {
+      .catch(() => {
         alert("Usuário não criado :( ");
       });
   };
@@ -49,22 +54,22 @@ class Cadastrar extends React.Component {
   render() {
     return (
       <Container>
-        <BoxCadastro>
-          <p>Cadastro</p>
-          <input
+        <CardCadastro>
+          <TextoInicial>Cadastro</TextoInicial>
+          <Entrada id="standard-basic" label="Nome"
             value={this.state.nomeUsuario}
             onChange={this.onChangeNomeUsuraio}
           />
-          <input
+          <Entrada id="standard-basic" label="Email"
             value={this.state.nomeEmail}
             onChange={this.onChangeEmailUsuario}
           />
 
-          <button onClick={this.criaUsuario}>criar</button>
-        </BoxCadastro>
+          <Button color="primary" onClick={this.criaUsuario}>criar</Button>
+        </CardCadastro>
       </Container>
     );
   }
 }
 
-export default Cadastrar;
+export default Cadastro;

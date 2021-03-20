@@ -1,5 +1,5 @@
 import React from "react";
-import Cadastrar from "./Cadastrar";
+import Cadastro from "./Cadastro/Cadastro";
 import Lista from "./Lista";
 import styled from "styled-components";
 import {
@@ -37,13 +37,15 @@ class PaginaInicial extends React.Component {
   render() {
     return (
       <Principal>
-        {this.state.ativo ? <Cadastrar /> : <Lista />}
+        <Cadastro/>
+        {/* {this.state.ativo ? <Cadastro /> : <Lista />}
         {this.state.ativo ? (
+
           <BotaoIrLista onClick={this.paginaLista}>Lista</BotaoIrLista>
         ) : (
           <BotaoIrCadastro onClick={this.paginaCadastro}>Cadastro</BotaoIrCadastro>
      
-        )}
+        )} */}
       </Principal>
     );
   }
