@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import { ListaUsuarios, BotaoDeletar,Container,BoxLista } from "../EstiloApp";
+import { ListaUsuarios, Limpar, Container, CardLista, TextoInicial } from "./ListaEstilo";
 
 class Lista extends React.Component {
   state = {
@@ -50,37 +50,36 @@ class Lista extends React.Component {
   render() {
     let listaCadastrados = this.state.lista.map((user) => {
       return (
-        <ListaUsuarios key={user.id}>
-          {user.name}
-          <BotaoDeletar onClick={() => this.deletaUsuario(user.id)}>
-            X
-          </BotaoDeletar>
-        </ListaUsuarios>
+        <>
+          <ListaUsuarios>
+
+            <span key={user.id}>{user.name}</span>
+            <Limpar onClick={() => this.deletaUsuario(user.id)} />
+          </ListaUsuarios>
+        </>
       );
     });
 
     return (
       <Container>
-        <BoxLista>
-        {this.state.atividadeBotao ? (
-          <div>
-            <h3 onClick={this.mostraEscondeLista}>Lista aqui ▲ </h3>
-            <hr/>
+        <CardLista>
+          {this.state.atividadeBotao ? (
+            <div>
+              <TextoInicial onClick={this.mostraEscondeLista}>Lista aqui ▲ </TextoInicial>
+              <hr />
+              {this.state.atividadeBotao ? (
+                <div>{listaCadastrados} </div>
 
-
-            {this.state.atividadeBotao ? (
-              <div>{listaCadastrados} </div>
-           
-            ) : (
-              <h1>erro</h1>
-            )}
-          </div>
-        ) : (
-          <section>
-            <h3 onClick={this.usuarios}>Lista aqui ▼ </h3>
-          </section>
-        )}
-        </BoxLista>
+              ) : (
+                <h1>erro</h1>
+              )}
+            </div>
+          ) : (
+            <section>
+              <TextoInicial onClick={this.usuarios}>Lista aqui ▼ </TextoInicial>
+            </section>
+          )}
+        </CardLista>
       </Container>
     );
   }
