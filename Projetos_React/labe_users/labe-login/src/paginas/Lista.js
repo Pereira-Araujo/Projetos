@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import { ListaUsuarios, BotaoDeletar,Container,BoxLista } from "./EstiloApp";
+import { ListaUsuarios, BotaoDeletar,Container,BoxLista } from "../Componentes/EstiloApp";
 
 class Lista extends React.Component {
   state = {
