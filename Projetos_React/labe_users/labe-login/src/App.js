@@ -1,5 +1,5 @@
 import React from "react";
-import PaginaInicial from "./paginas/PaginaInicial"
+import PaginaInicial from "./paginas/PaginaInicial/PaginaInicial"
 
 function App(){
   return(
