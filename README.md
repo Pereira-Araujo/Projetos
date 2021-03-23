@@ -28,7 +28,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
  - [ ] Labenu-Forms
  - [ ] WhatsLab
  </details>
- <img height="300" width:="600" src="https://scrippsprssa.files.wordpress.com/2019/12/giphy.gif">
+ <img src="https://i.pinimg.com/originals/4b/ae/e9/4baee94ad8634680ebd9cbf372f9888e.gif">
 
 
 
