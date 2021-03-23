@@ -28,7 +28,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
  - [ ] Labenu-Forms
  - [ ] WhatsLab
  </details>
- <img src="https://i.pinimg.com/originals/4b/ae/e9/4baee94ad8634680ebd9cbf372f9888e.gif">
+ <img src="https://kiagencia.com.br/wp-content/uploads/2019/08/10-mandamentos-do-copywriting-gestao-prazos-KI-Agencia.gif">
 
 
 
