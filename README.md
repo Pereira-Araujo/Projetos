@@ -1,8 +1,8 @@
 # Projetos 🚧
 <img src="https://img.shields.io/github/languages/count/Pereira-Araujo/Projetos?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/Projetos?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/Projetos?style=flat-square"/> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-#### O intuito desse repositório é reunir em um só lugar meus pequenos projetos ou as *tentativas de*.
 ***
+#### O intuito desse repositório é reunir em um só lugar meus pequenos projetos ou as *tentativas de*.
+
 
  **<details><summary>Projetos Vanilla🍦</summary>**
   
