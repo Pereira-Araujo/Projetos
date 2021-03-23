@@ -3,35 +3,21 @@
 
 #### O intuito desse repositório é reunir em um só lugar meus pequenos projetos ou as *tentativas de*.
 ***
- <details><summary>Projetos Vanilla🍦</summary>
- <details>
- 
- <summary><img height="21" src="https://img.shields.io/badge/CRIADOS%20EM-2020-orange.svg?style=flat-square" alt="CRIADOS EM 2020"></summary>
- 
- [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)
+
+ **<details><summary>Projetos Vanilla🍦</summary>**
+  
+ [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)  **|**
 [**Luna Social Media**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [**OtherSide Store**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [**CheckList**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [**Planner**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)
-  
- </details>
 
+</details>
+  
+
+**<details><summary>Projetos React ⚛️</summary>**
+
+
+
+[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|** [**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|**
  
-</details>
-
-<details><summary>Projetos React ⚛️</summary>
- <details>
-  
- <summary><img height="21" src="https://img.shields.io/badge/CRIADOS%20EM-2020-blue.svg?style=flat-square" alt="CRIADOS EM 2020"/></summary>
-
-[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|**
-
-</details>
-
-<details>
-  
-<summary><img height="21" src="https://img.shields.io/badge/CRIADOS%20EM-2021-darkorchid.svg?style=flat-square" alt="CRIADOS EM 2021"/></summary>
-[**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|**
- 
-
-</details>
 
 </details>
 
