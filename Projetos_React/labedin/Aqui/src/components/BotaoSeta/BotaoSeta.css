@@ -1,4 +1,4 @@
-.image-button-container {
+.botao-seta-container{
     display: flex;
     align-items: center;
     border: 1px solid rgb(211, 211, 211);
@@ -15,7 +15,7 @@
     
 }
 
-.image-button-container > img {
+.botao-seta-container> img {
     width: 30px;
     margin-right: 10px;
 }

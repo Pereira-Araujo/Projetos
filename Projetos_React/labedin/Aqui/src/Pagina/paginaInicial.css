@@ -9,25 +9,25 @@ body{
 
 }
 
-.App {
+.pagina-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
 }
 
-.page-section-container  {
+.informacoes-container {
   width: 40vw;
   margin: 10px 0;
 }
 
 
 
-.page-section-container > h3 {
+.informacoes-container > h3 {
   text-align: center;
   margin-bottom: 20px;
 }
-.page-section-container > h2{
+.informacoes-container > h2{
   text-align:center;
 }
 h2{
@@ -45,14 +45,14 @@ h2{
 
 
 @media(max-width:720px){
-  .page-section-container{
+  .informacoes-container{
     width:60vw;
     
   }
 }
 
 @media(max-width:500px){
-  .page-section-container{
+  .informacoes-container{
     width:80vw;
   }
 }

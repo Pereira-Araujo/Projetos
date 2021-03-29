@@ -1,12 +1,12 @@
 import React from 'react';
-import LandingPage from './Pagina/landingPage';
+import PaginaInicial from './Pagina/paginaInicial';
 
 
 
 function App() {
   return (
     <div>
-      <LandingPage/>
+      <PaginaInicial/>
    </div>
   );
 }

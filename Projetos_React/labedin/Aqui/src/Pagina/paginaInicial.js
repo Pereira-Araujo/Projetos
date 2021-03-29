@@ -1,17 +1,17 @@
 import React from 'react';
-import './landingPage.css';
+import './paginaInicial.css';
 import CardGrande from '../components/CardGrande/CardGrande';
-import ImagemButton from '../components/ImagemButton/ImagemButton';
+import BotaoSeta from '../components/BotaoSeta/BotaoSeta';
 import CardEndereco from '../components/CardEndereco/CardEndereco';
 import Projetos from '../components/Projetos/Projetos';
 
 
 
-function LandingPage() {
+function PaginaInicial() {
   return (
-    <div className="App">
+    <main class="pagina-container">
       
-      <div className="page-section-container">
+      <div className="informacoes-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
           imagem="https://avatars2.githubusercontent.com/u/60116988?s=460&u=cc35ac6add51ea525ddcdbe5ce5ea06046974edc&v=4" 
@@ -22,7 +22,7 @@ function LandingPage() {
           />
 
                 
-        <ImagemButton 
+        <BotaoSeta 
           imagem="https://image.flaticon.com/icons/png/512/117/117472.png" 
           texto="Ver mais"
         />
@@ -42,7 +42,7 @@ function LandingPage() {
      </div>
 
 
-      <div className="page-section-container">
+      <div className="informacoes-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
           imagem="https://uploads-ssl.webflow.com/5e790d30d198385b09366d8f/5efbb5055f2478ba2bc322d0_icone_gif.gif" 
@@ -57,28 +57,28 @@ function LandingPage() {
         />
       </div>
 
-      <div className="page-section-container">
+      <div className="informacoes-container">
         <h2>Entre em contato</h2>
-        <ImagemButton 
+        <BotaoSeta 
           endereco="https://www.facebook.com/"
           imagem="https://d2v9ipibika81v.cloudfront.net/uploads/sites/261/2017/01/facebook-logo-3.png" 
           texto="Facebook" 
         />        
 
-        <ImagemButton 
+        <BotaoSeta 
           endereco="https://twitter.com/home"
           imagem="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png" 
           texto="Twitter" 
           
         />   
-         <ImagemButton 
+         <BotaoSeta 
           endereco="mailto:araujo_ir@yahoo.com"
           imagem="https://icons-for-free.com/iconfiles/png/512/email+gmail+mail+message+service+icon-1320183404410750774.png" 
           texto="E-mail" 
           />
       </div>
 
-        <div className="page-section-container">
+        <div className="informacoes-container">
           <h2>Onde me encontrar</h2>    
 
           <CardEndereco
@@ -87,8 +87,8 @@ function LandingPage() {
         />        
         </div>
   
-   </div>
+   </main>
   );
 }
 
-export default LandingPage;
+export default PaginaInicial;
