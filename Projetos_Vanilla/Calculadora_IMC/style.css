@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1974d2;
+  height: 100vh;
+}
+section {
+  background: white;
+  border-radius: 2%;
+  width: 16rem;
+  height: 18rem;
+  text-align: center;
+}
+#button {
+  background: #1974d2;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 4%;
+
+  color: white;
+}
+
+#resposta {
+  margin: 10px;
+}
+
+.positivo {
+  background: rgb(114, 248, 241);
+}
+.negativo {
+  background: rgb(238, 163, 163);
+}
