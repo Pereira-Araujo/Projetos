@@ -3,6 +3,9 @@
 
 O intuito desse repositório é reunir em um só lugar meus pequenos **projetos** ou as *tentativas de*.
 
+*Nota :Cada projeto possui um arquivo ReadMe.md explicando o mesmo .*
+
+
  **<details><summary>Projetos Vanilla🍦</summary>**
   
  [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)  **|**
