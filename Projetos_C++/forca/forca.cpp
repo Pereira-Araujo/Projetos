@@ -3,7 +3,10 @@
 using namespace std;
 
 int main()
-{
+{ 
+            system("color F0");
+
+
     char palavra[30], letra[1], secreta[30];
     int tamanho, index, chances, pontos;
     bool acerto;
