@@ -18,7 +18,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 
 
-[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|** [**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|**
+[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|** [**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|** [**Labedin**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labedin)
  
 
 </details>
@@ -26,7 +26,6 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 **<details><summary>Em Revisão</summary>**
 
- - [ ] Labedin
  - [ ] Labefy
  - [ ] Labenu-Forms
  - [ ] WhatsLab
