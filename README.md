@@ -23,6 +23,12 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 </details>
 
+**<details><summary>Projetos C++ </summary>**
+  
+  [**Forca**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_C%2B%2B/forca)
+
+</details>
+
 
 **<details><summary>Em Revisão</summary>**
 
