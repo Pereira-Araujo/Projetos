@@ -1,5 +1,8 @@
 import React from "react";
+import Button from '@material-ui/core/Button';
+
 import "./index.css";
+
 
 class Chat extends React.Component {
   state = {
@@ -40,9 +43,10 @@ class Chat extends React.Component {
   };
 
 
-  render() {
-    const chatConversation = this.state.chat.map((chatAdd) => {
 
+  render() {
+
+    const chatConversation = this.state.chat.map((chatAdd) => {
       if (
         chatAdd.user === "eu" ||
         chatAdd.user === "EU" ||
@@ -54,8 +58,8 @@ class Chat extends React.Component {
 
       return (
         <p>
-          <span className="chatAddBoldColor"> {chatAdd.user} </span>{" "}
-          <span className="chatAddMessage"> {chatAdd.message} </span>{" "}
+          <span className="chatAddBoldColor"> {chatAdd.user} </span>
+          <span className="chatAddMessage"> {chatAdd.message} </span>
         </p>
       );
     });
@@ -66,9 +70,8 @@ class Chat extends React.Component {
 
         <section className="chat">
           <section id="messages" onDoubleClick={this.Clear}>
-            {" "}
-            {chatConversation}{" "}
-          </section>{" "}
+            {chatConversation}
+          </section>
         </section>
 
         <section className="inputs">
@@ -77,7 +80,7 @@ class Chat extends React.Component {
             value={this.state.inputUser}
             onChange={this.onChangeUser}
             placeholder={"Usuário"}
-          />{" "}
+          />
           <input
             id="inputMessage"
             value={this.state.inputMessage}
@@ -85,8 +88,10 @@ class Chat extends React.Component {
             placeholder={"Mensagem"}
           />
 
-          <button onClick={this.Add}> enviar </button>{" "}
-        </section>{" "}
+          <Button size="small" variant="outlined" color="primary" onClick={this.Add}>
+            Enviar
+      </Button>
+        </section>
 
       </main>
     );
