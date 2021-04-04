@@ -1,5 +1,5 @@
 import React from 'react'
-import PerguntaAberta from './PerguntaAberta'
+import PerguntaAberta from '../components/PerguntaAberta'
 
 class Etapa2 extends React.Component {
   render() {

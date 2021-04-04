@@ -1,6 +1,6 @@
 import React from 'react'
-import PerguntaAberta from './PerguntaAberta'
-import PerguntaFechada from './PerguntaFechada'
+import PerguntaAberta from '../components/PerguntaAberta'
+import PerguntaFechada from '../components/PerguntaFechada'
 
 class Etapa3 extends React.Component {
   render() {

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import Etapa1 from '../src/components/Etapa1'
-import Etapa2 from '../src/components/Etapa2'
-import Etapa3 from '../src/components/Etapa3'
-import Final from '../src/components/Final'
+import Etapa1 from './Pages/Etapa1'
+import Etapa2 from './Pages/Etapa2'
+import Etapa3 from './Pages/Etapa3'
+import Final from './Pages/Final'
 
 
 const Container = styled.main`
