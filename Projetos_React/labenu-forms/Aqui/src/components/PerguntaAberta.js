@@ -1,20 +1,14 @@
-
-import React from 'react';
-
+import React from 'react'
 
 class PerguntaAberta extends React.Component {
-    render() {
-
-      return  (
-
-        <div>
+  render() {
+    return (
+      <div>
         <p>{this.props.pergunta}</p>
-           <input type="text"/>
-        </div>
-
-
-      );
-    }
+        <input type="text" />
+      </div>
+    )
   }
+}
 
-  export default PerguntaAberta;
+export default PerguntaAberta
