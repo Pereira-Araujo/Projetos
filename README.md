@@ -18,7 +18,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 
 
-[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|** [**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|** [**Labedin**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labedin) **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/whats-lab)
+[**Insta_Four**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/insta-four)  **|** [**Labe_Users**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labe_users)  **|** [**Labedin**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labedin) **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/whats-lab) **|**[**Labe-Forms**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labenu-forms)
  
 
 </details>
@@ -33,7 +33,6 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 **<details><summary>Em Revisão</summary>**
 
  - [ ] Labefy
- - [ ] Labenu-Forms
  </details>
  <img src="https://kiagencia.com.br/wp-content/uploads/2019/08/10-mandamentos-do-copywriting-gestao-prazos-KI-Agencia.gif">
 
