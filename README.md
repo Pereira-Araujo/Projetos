@@ -1,5 +1,5 @@
 # Projetos 
-*2020-2021*
+*10/2020-10/2021*
 
 <img src="https://img.shields.io/github/languages/count/Pereira-Araujo/Projetos?style=flat-square"/> <img src="https://img.shields.io/github/last-commit/Pereira-Araujo/Projetos?style=flat-square"/> <img alt="commits/mês" src="https://img.shields.io/github/commit-activity/m/Pereira-Araujo/Projetos?style=flat-square"/> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
