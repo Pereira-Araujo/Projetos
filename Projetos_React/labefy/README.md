@@ -1,4 +1,0 @@
-# LABEFY
-🚧
-
-*Em construção*
