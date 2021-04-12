@@ -8,15 +8,13 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <textarea class="texto">
-    </textarea>
+<body class="container">
+    <main class="card"> 
+    <textarea class="card__texto"></textarea>
+    <div class="card__botao" onclick="contar()">CONTAR</div>
 
-    <button onclick="contar()">go</button>
-
-    <div>
-        <h3>palavras:<span class="quantidade"></span></h3>
-    </div>
+    <p class="card__titulo-contador">PALAVRAS:<span class="card__contador"></span></p>
+    </main>
     <script src="index.js"></script>
 </body>
 
