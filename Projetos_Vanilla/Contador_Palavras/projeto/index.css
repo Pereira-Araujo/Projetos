@@ -1,0 +1,52 @@
+.container{
+    height:80vh;
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card{
+    width:20rem;
+    height:24rem;
+    background-color:white;
+    border-radius:1rem;
+    box-shadow: 10px 14px 17px 0px rgba(0,0,0,0.75);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.card__texto{
+    width:18rem;
+    height:12rem;
+    border:1px solid #6893e262;
+    border-radius:0.3rem;
+    resize:none;
+}
+.card__texto:focus{
+    outline: 0;
+}
+
+.card__botao, .card__titulo-contador, .card__contador{
+    font-size:0.8rem;
+    font-weight: bold;
+    font-family:Verdana;
+    color:#28519e;
+}
+
+.card__botao{
+    border:1px solid #6893e2;
+    border-radius:4px;
+    cursor:pointer;
+    padding:6px 10px;
+}
+
+.card__contador{
+   margin-left:0.5rem;
+
+}
