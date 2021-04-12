@@ -13,6 +13,8 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
  [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)  **|**
 [**Luna Social Media**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [**OtherSide Store**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [**CheckList**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [**Planner**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)
 
+[**Contador de Palavras**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Contador_Palavras)
+
 </details>
   
 
