@@ -1,6 +1,3 @@
-
-
-
 const contar = () =>{
 let texto = document.querySelector('.texto').value
 let quantidade = document.querySelector('.quantidade')
