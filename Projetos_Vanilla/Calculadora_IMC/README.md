@@ -6,4 +6,4 @@
 - O exercício é simples mas interessante para testar o domínio do bom uso das funções.
 - O resultado pode ser visto 👉 [aqui](https://js42.araujocoding.repl.co/)
 
-![](assets\CalculadoraIMC.png)
+![](https://github.com/Pereira-Araujo/Projetos/blob/main/Projetos_Vanilla/Calculadora_IMC/assets/CalculadoraIMC.png?raw=true)
