@@ -36,7 +36,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 
  
- <img src="https://kiagencia.com.br/wp-content/uploads/2019/08/10-mandamentos-do-copywriting-gestao-prazos-KI-Agencia.gif">
+ <img src="https://i.imgur.com/4SdB78W.gif" width=35%/>
 
 
 
