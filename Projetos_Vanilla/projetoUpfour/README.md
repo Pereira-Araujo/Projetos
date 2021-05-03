@@ -6,7 +6,7 @@ Projeto proposto : Desenvolver uma landing page de uma das empresas fictícias e
 
  * No caso, o trabalho da Labenu foi desenvolvido em dupla na Labenu mas o código que se encontra aqui é uma versão pessoal do projeto.
 
-O Resultado pode ser visto aqui <img src="https://toppng.com/uploads/preview/finger-finger-icon-left-right-png-and-psd-finger-pointing-icon-115631043687g3bxc2upl.png" width="30"><a href="https://upfour2.araujocoding.repl.co/index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/768px-Repl.it_logo.svg.png" width="50"></a>
+O Resultado pode ser visto aqui <a href="https://upfour2.araujocoding.repl.co/index.html"><img alt="Repl.it" src="https://img.shields.io/badge/Repl.it-%230D101E.svg?&style=for-the-badge&logo=Repl.it&logoColor=white"/></a>
 
 
 ## Prints abaixo
