@@ -1,7 +1,7 @@
 # OtherSide-Store
 
 Exercício de criação de uma loja fictícia utilizando<b>HTML</b> e <b>CSS</b> - exercício do curso de Front-End com React da [Labenu](https://www.labenu.com.br/) :heart_eyes:             
-O Resultado pode ser visto aqui <img src="https://toppng.com/uploads/preview/finger-finger-icon-left-right-png-and-psd-finger-pointing-icon-115631043687g3bxc2upl.png" width="30"><a href="https://otherside-store.araujocoding.repl.co/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/768px-Repl.it_logo.svg.png" width="50"></a>
+O Resultado pode ser visto aqui <a href="https://otherside-store.araujocoding.repl.co/"><img alt="Repl.it" src="https://img.shields.io/badge/Repl.it-%230D101E.svg?&style=for-the-badge&logo=Repl.it&logoColor=white"/></a>
 
 
 <img src="https://github.com/Pereira-Araujo/Projetos/blob/main/Projetos_Vanilla/OtherSide_Store/asset/1.png?raw=true" width="80%">
