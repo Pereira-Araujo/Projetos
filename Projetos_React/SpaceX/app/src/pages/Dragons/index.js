@@ -23,7 +23,7 @@ useEffect(()=>{
         return(
           <div>
             <p>Nome: {each.name}</p>
-            <p>Peso: {each.launch_payload_mass.kg}</p>
+            <p>Peso: {each.launch_payload_mass.kg} kg</p>
             <img src={each.flickr_images}/>
             <p>{each.description}</p>
           </div>

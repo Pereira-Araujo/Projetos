@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const MenuContainer = styled.header`
 height:8rem;
+background:black;
+color:white;
+
 display:flex;
 align-items:center;
 justify-content:space-between;
