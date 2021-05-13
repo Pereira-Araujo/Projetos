@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Container,TaskCard,Task,TaskForm} from './style'
+import {ContainerCard,Card,TaskCard,Task,TaskForm,ButtonAdd} from './style'
 
  
 class ToDoList extends React.Component {
@@ -25,7 +25,6 @@ class ToDoList extends React.Component {
   };
 
   createTask = () => {
-
     let taskObject = {
       id: Date.now(),
       text: this.state.textToDo,
@@ -70,16 +69,17 @@ class ToDoList extends React.Component {
     });
 
     return (
-      <Container>
-        <h1>Lista de toDo</h1>
+      <ContainerCard>
+        <Card>
+        <h1>Lista de Tarefas</h1>
         <TaskForm>
           <input value={this.state.textToDo} onChange={this.onChangeInput} />
-          <button onClick={this.createTask}>Adicionar</button>
+          <ButtonAdd onClick={this.createTask}>Adicionar</ButtonAdd>
         </TaskForm>
         <br />
 
         <TaskForm>
-          <label>filter</label>
+          <label>filtro</label>
           <select value={this.state.filter} onChange={this.onChangeFilter}>
             <option value="">Nenhum</option>
             <option value="pendentes">Pendentes</option>
@@ -99,7 +99,8 @@ class ToDoList extends React.Component {
             );
           })}
         </TaskCard>
-      </Container>
+        </Card>
+      </ContainerCard>
     );
   }
 }
