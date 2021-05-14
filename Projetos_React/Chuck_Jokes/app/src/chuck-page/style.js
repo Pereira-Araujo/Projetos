@@ -75,13 +75,15 @@ export const Container = styled.main`
     border: 1px solid orange;
     `
 
-
+/* */
 
  export const BlockRight = styled.main`
   width:60%;
   height: 80%;
+  background:Wheat;
   margin-right:2rem;
   padding-top:2rem;
+  border-radius:5%;
   display: flex;
   flex-direction: column;
   align-items: center;
