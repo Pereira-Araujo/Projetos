@@ -1,5 +1,7 @@
 # Chuck Joke Norris Page
+
 :construction:
+
 Um pequeno projeto com React que visa a criação de uma página consumindo a API [**chuck-api**](https://api.chucknorris.io/#!):
 
 - A página retorna frases supostamente proferidas por Chuck Norris :
