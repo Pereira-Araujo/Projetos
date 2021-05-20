@@ -21,5 +21,6 @@ Um pequeno projeto com React que visa a criação de uma página consumindo a AP
    - E  **organização** de código.
 
 
-![joke norris](https://user-images.githubusercontent.com/60116988/117523130-7bf78280-af8d-11eb-9f3c-463ec075ab76.png)
-![joke](https://user-images.githubusercontent.com/60116988/118334966-fcb20380-b4e4-11eb-95ec-a274c3bb4ee3.png)
+<img src='https://user-images.githubusercontent.com/60116988/117523130-7bf78280-af8d-11eb-9f3c-463ec075ab76.png'/>
+
+<img src='https://user-images.githubusercontent.com/60116988/118334966-fcb20380-b4e4-11eb-95ec-a274c3bb4ee3.png'/>
