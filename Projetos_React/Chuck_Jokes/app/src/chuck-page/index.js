@@ -1,6 +1,7 @@
 import axios from 'axios'
 import {useState, useEffect} from 'react'
 import BASE_URL from '../constant/url'
+import useInput from '../hooks/useInput'
 import {Container,
   Card,ChuckPhoto, 
   ChuckCaracter,
@@ -20,22 +21,20 @@ import Chuck_Logo from '../assets/logo_chuck.png'
 function Home() {
    let jokeCategory
 
+   const [search, onChangeSearch] = useInput('')
+
     const [categories, setCategories] = useState([])
-    const [search, setSearch] = useState('')
+    
     const [random, setRandom] = useState(<ChuckCaracter src={Chuck_Logo} alt='Desenho do Chuck Norris'/>)
     const [filter, setFilter]= useState([])
     const [change, setChange] = useState(false)
      
-    const onChangeFind = (event)=>{
-      setSearch(event.target.value)
-    }
-   
+    
     const find = (event)=>{
       event.preventDefault();
       axios.get(`${BASE_URL}search?query=${search}`).then((response)=>{
         setChange(true)
         setFilter(response.data.result)
-        setSearch('')
       })
     }
 
@@ -93,7 +92,7 @@ function Home() {
          </Card>
         
          <SearchContainer onSubmit={find}>
-         <Search placeholder={'search'}onChange={onChangeFind} value={search}/><ButtonSearch type={'submit'}>go</ButtonSearch>
+         <Search placeholder={'search'} onChange={onChangeSearch} value={search}/><ButtonSearch type={'submit'}>go</ButtonSearch>
          </SearchContainer>
          <TagContainer>
          {categoriesMapped}
