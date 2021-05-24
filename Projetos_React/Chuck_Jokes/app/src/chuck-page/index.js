@@ -65,12 +65,16 @@ function Home() {
         })
       }
 
+      const getInitialState = ()=>{
+        setRandom(<ChuckCaracter src={Chuck_Logo} alt='Desenho do Chuck Norris'/>)
+       }
+      
     const categoriesMapped = categories.map((nameCategory)=>{
     return(
         <Tag key={nameCategory} onClick={() => changeCategories(nameCategory)}>
           {nameCategory}
         </Tag> )})
-   
+
    
     const searchFiltered = filter.map((item)=>{
       return <p>{item.value}</p>
@@ -84,7 +88,7 @@ function Home() {
       <Container>
      <BlockLeft>
          <Card>
-         <h1>Chuck Norris Jokes</h1>
+         <h1 onClick={getInitialState}>Chuck Norris Jokes</h1>
          <ChuckPhoto alt={'Rosto do chuck Norris sorrindo'} src={Chuck_Avatar}/>
          </Card>
         
@@ -98,7 +102,7 @@ function Home() {
      </BlockLeft>
 
     <BlockRight>
-     <div>{change === false ? (<>{random}</>):(<>{searchFiltered}</>) }</div>
+     {change === false ? (<>{random}</>):(<>{searchFiltered}</>) }
     </BlockRight>
       </Container>
     );
