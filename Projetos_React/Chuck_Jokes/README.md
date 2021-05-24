@@ -3,9 +3,6 @@
 
 :construction:
 
-Um pequeno projeto com React que visa a criação de uma página consumindo a API [**chuck-api**](https://api.chucknorris.io/#!)
-
-
 - A página retorna frases supostamente proferidas por Chuck Norris :
   - Seja de modo **aleatório**
   - Por **categoria**
@@ -13,12 +10,13 @@ Um pequeno projeto com React que visa a criação de uma página consumindo a AP
 
 - O resultado pode ser visto aqui <a href='https://chuck-norris-jokes.araujocoding.repl.co/'><img alt="Repl.it" src="https://img.shields.io/badge/Repl.it-%230D101E.svg?&style=for-the-badge&logo=Repl.it&logoColor=white"/></a>
 
-**Objetivos**
-- A **consolidação** de meus conhecimentos sobre:
-   - Hooks,
-   - O consumo de **API** com **axios**, 
-   - Estilização com **styled-components**
-   - E  **organização** de código.
+### API
+- [**chuck-api**](https://api.chucknorris.io/#!)
+
+### Libs
+
+ - [Axios](https://axios-http.com/)
+ - [Styled-components](https://styled-components.com/)
 
 
 <img src='https://user-images.githubusercontent.com/60116988/117523130-7bf78280-af8d-11eb-9f3c-463ec075ab76.png'/>
