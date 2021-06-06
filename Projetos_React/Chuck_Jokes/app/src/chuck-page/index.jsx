@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import BASE_URL from "../constant/url";
 import useInput from "../hooks/useInput";
 import BlockLeft from "../components/BlockLeft/index";
-import { Container, ChuckCaracter, BlockRight, Tag } from "./style";
+import BlockRight from '../components/BlockRight/index'
+import { Container, ChuckCaracter, Tag } from "./style";
 
 import Chuck_Avatar from "../assets/chuck_image.png";
 import Chuck_Logo from "../assets/logo_chuck.png";
@@ -13,7 +14,9 @@ function Home() {
 
   const [search, onChangeSearch] = useInput("");
   const [categories, setCategories] = useState([]);
-  const [random, setRandom] = useState(<ChuckCaracter src={Chuck_Logo} alt="Desenho do Chuck Norris" />);
+  const [random, setRandom] = useState(
+    <ChuckCaracter src={Chuck_Logo} alt="Desenho do Chuck Norris" />
+  );
   const [filter, setFilter] = useState([]);
   const [change, setChange] = useState(false);
 
@@ -73,19 +76,21 @@ function Home() {
 
   return (
     <Container>
-      <BlockLeft 
-      callInitial={getInitialState}
-      callImage={Chuck_Avatar}
-      callFind={find}
-      callChange={onChangeSearch}
-      callValue={search}
-      callRandomText={categoriesMapped}
-      callRandom={getRandom}
-            />
-
-      <BlockRight>
-        {change === false ? <>{random}</> : <>{searchFiltered}</>}
-      </BlockRight>
+      <BlockLeft
+        callInitial={getInitialState}
+        callImage={Chuck_Avatar}
+        callFind={find}
+        callChange={onChangeSearch}
+        callValue={search}
+        callRandomText={categoriesMapped}
+        callRandom={getRandom}
+      />
+      <BlockRight
+      setPage={change}
+      bolean={false}
+      elementPageOne={random}
+      elementPageTwo={searchFiltered}
+      />
     </Container>
   );
 }
