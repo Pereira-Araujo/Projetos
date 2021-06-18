@@ -1,5 +1,8 @@
 # OtherSide-Store
 
+🚧
+- **Obs.:** Esse projeto será retomado em momento oportuno.
+
 Exercício de criação de uma loja fictícia utilizando<b>HTML</b> e <b>CSS</b> - exercício do curso de Front-End com React da [Labenu](https://www.labenu.com.br/) :heart_eyes:             
 O Resultado pode ser visto aqui <a href="https://otherside-store.araujocoding.repl.co/"><img alt="Repl.it" src="https://img.shields.io/badge/Repl.it-%230D101E.svg?&style=for-the-badge&logo=Repl.it&logoColor=white"/></a>
 
