@@ -24,7 +24,7 @@ function Home() {
     event.preventDefault();
     axios.get(`${BASE_URL}search?query=${search}`).then((response) => {
       setChange(true);
-      setFilter(response.data.result);
+      setFilter(response.data.result.slice(0,10));
     });
   };
 

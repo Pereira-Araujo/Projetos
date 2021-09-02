@@ -36,6 +36,8 @@ export const TagContainer = styled.section`
   justify-content: space-around;
   flex-wrap: wrap;
   background: whitesmoke;
+  cursor:pointer;
+
 `;
 
 export const RandomButtom = styled.section`
@@ -43,6 +45,8 @@ export const RandomButtom = styled.section`
   padding: 1rem;
   text-align: center;
   border: 1px solid orange;
+  cursor:pointer;
+  
 `;
 
 export const ButtonSearch = styled.button`

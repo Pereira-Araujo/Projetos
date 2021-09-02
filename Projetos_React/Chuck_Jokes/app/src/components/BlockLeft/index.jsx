@@ -1,4 +1,4 @@
-import { Container,Card ,ChuckPhoto,SearchContainer,Search,ButtonSearch,TagContainer,RandomButtom} from './style.js'
+import { Container, Card, ChuckPhoto, SearchContainer, Search, ButtonSearch, TagContainer, RandomButtom } from './style.js'
 
 function BlockLeft(props) {
   return (
@@ -17,7 +17,7 @@ function BlockLeft(props) {
         <ButtonSearch type={"submit"}>go</ButtonSearch>
       </SearchContainer>
       <TagContainer>
-      {props.callRandomText}
+        {props.callRandomText}
       </TagContainer>
       <RandomButtom onClick={props.callRandom}>Random</RandomButtom>
     </Container>
