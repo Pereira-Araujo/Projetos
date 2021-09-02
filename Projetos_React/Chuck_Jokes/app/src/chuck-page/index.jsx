@@ -8,6 +8,8 @@ import { Container, ChuckCaracter, Tag } from "./style";
 
 import Chuck_Avatar from "../assets/chuck_image.png";
 import Chuck_Logo from "../assets/logo_chuck.png";
+import Highlighter from "react-highlight-words";
+
 
 function Home() {
   let jokeCategory;
@@ -24,7 +26,7 @@ function Home() {
     event.preventDefault();
     axios.get(`${BASE_URL}search?query=${search}`).then((response) => {
       setChange(true);
-      setFilter(response.data.result.slice(0,10)); // tratando os resultado
+      setFilter(response.data.result.slice(0, 10)); // tratando os resultado
     });
   };
 
@@ -66,9 +68,16 @@ function Home() {
     );
   });
 
+
   const searchFiltered = filter.map((item) => {
-    return <p>{item.value}</p>;
-  });
+    return <p><Highlighter
+      highlightClassName="YourHighlightClass"
+      searchWords={[search]}
+      autoEscape={true}
+      textToHighlight={item.value}
+    /></p>
+
+  })
 
   useEffect(() => {
     getCategories();
@@ -76,6 +85,7 @@ function Home() {
 
   return (
     <Container>
+
       <BlockLeft
         callInitial={getInitialState}
         callImage={Chuck_Avatar}
@@ -86,10 +96,10 @@ function Home() {
         callRandom={getRandom}
       />
       <BlockRight
-      setPage={change}
-      bolean={false}
-      elementPageOne={random}
-      elementPageTwo={searchFiltered}
+        setPage={change}
+        boolean={false}
+        elementPageOne={random}
+        elementPageTwo={searchFiltered}
       />
     </Container>
   );

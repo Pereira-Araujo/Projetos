@@ -3,8 +3,8 @@ import { Container, Card, ChuckPhoto, SearchContainer, Search, ButtonSearch, Tag
 function BlockLeft(props) {
   return (
     <Container>
-      <Card>
-        <h1 onClick={props.callInitial}>Chuck Norris Jokes</h1>
+      <Card onClick={props.callInitial}>
+        <h1 >Chuck Norris Jokes</h1>
         <ChuckPhoto alt={"Rosto do chuck Norris sorrindo"} src={props.callImage} />
       </Card>
 

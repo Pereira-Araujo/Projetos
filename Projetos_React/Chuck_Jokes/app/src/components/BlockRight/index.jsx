@@ -4,7 +4,7 @@ import {Container } from './style'
 function BlockRight(props) {
     return(
   <Container>
-    {props.setPage === props.bolean ? <>{props.elementPageOne}</> : <>{props.elementPageTwo}</>}
+    {props.setPage === props.boolean ? <>{props.elementPageOne}</> : <>{props.elementPageTwo}</>}
   </Container>
   )
 }

@@ -3,13 +3,14 @@
 
  export const Container = styled.main`
  width:60%;
- height: 80%;
+ height: 90%;
  background:Wheat;
  margin-right:2rem;
  padding:1rem;
  border-radius:5%;
+ text-align:center;
  display: flex;
- flex-direction: column;
+ flex-direction: column; 
  align-items: center;
  justify-content:center;
  overflow-y: auto;
