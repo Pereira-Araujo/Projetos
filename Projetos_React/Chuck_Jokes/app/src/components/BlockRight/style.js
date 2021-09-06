@@ -1,10 +1,11 @@
 
  import styled from "styled-components";
+ import {backgroundDefault} from '../../style/colors'
 
  export const Container = styled.main`
  width:60%;
  height: 90%;
- background:Wheat;
+ background: ${backgroundDefault};
  margin-right:2rem;
  padding:1rem;
  border-radius:5%;

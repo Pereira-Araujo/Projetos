@@ -61,7 +61,6 @@ export const Container = styled.main`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: whitesmoke;
     `
    export const Tag = styled.p`
     border: 1px solid orange;
@@ -80,7 +79,7 @@ export const Container = styled.main`
  export const BlockRight = styled.main`
   width:60%;
   height: 80%;
-  background:Wheat;
+  background:blue;
   margin-right:2rem;
   padding:1rem;
   border-radius:5%;

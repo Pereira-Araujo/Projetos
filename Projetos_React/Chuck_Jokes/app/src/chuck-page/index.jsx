@@ -1,59 +1,40 @@
-import axios from "axios";
 import { useState, useEffect } from "react";
-import BASE_URL from "../constant/url";
+
 import useInput from "../hooks/useInput";
+import useMark from '../hooks/useMark'
+
 import BlockLeft from "../components/BlockLeft/index";
 import BlockRight from '../components/BlockRight/index'
 import { Container, ChuckCaracter, Tag } from "./style";
 
 import Chuck_Avatar from "../assets/chuck_image.png";
 import Chuck_Logo from "../assets/logo_chuck.png";
-import Highlighter from "react-highlight-words";
 
+import { getMethod, getAsync, getMethodValue, searchFunction } from '../api/index'
 
 function Home() {
   let jokeCategory;
-
+  const [filter, setFilter] = useState([]);
+  const [change, setChange] = useState(false);
   const [search, onChangeSearch] = useInput("");
   const [categories, setCategories] = useState([]);
   const [random, setRandom] = useState(
     <ChuckCaracter src={Chuck_Logo} alt="Desenho do Chuck Norris" />
   );
-  const [filter, setFilter] = useState([]);
-  const [change, setChange] = useState(false);
 
-  const find = (event) => {
-    event.preventDefault();
-    axios.get(`${BASE_URL}search?query=${search}`).then((response) => {
-      setChange(true);
-      setFilter(response.data.result.slice(0, 10)); // tratando os resultado
-    });
-  };
 
-  const getCategories = () => {
-    axios.get(`${BASE_URL}categories`).then((response) => {
-      setCategories(response.data);
-    });
-  };
+  const find = () => searchFunction('search?query=$', setFilter, setChange, true, search)
+  const searchFiltered = useMark(filter, search)
+  const getCategories = () => getMethod('categories', setCategories)
+  const getRandom = () => getMethodValue('random', setRandom, setChange, false)
 
   const changeCategories = (joke) => {
     jokeCategory = joke;
     getJokesByCategories();
   };
 
-  const getJokesByCategories = async () => {
-    const result = await axios.get(
-      `${BASE_URL}random?category=${jokeCategory}`
-    );
-    setRandom(result.data.value);
-    setChange(false);
-  };
-
-  const getRandom = () => {
-    axios.get(`${BASE_URL}random`).then((response) => {
-      setRandom(response.data.value);
-      setChange(false);
-    });
+  const getJokesByCategories = () => {
+    return getAsync('random?category=', setRandom, jokeCategory, setChange, false)
   };
 
   const getInitialState = () => {
@@ -68,16 +49,6 @@ function Home() {
     );
   });
 
-
-  const searchFiltered = filter.map((item) => {
-    return <p><Highlighter
-      highlightClassName="YourHighlightClass"
-      searchWords={[search]}
-      autoEscape={true}
-      textToHighlight={item.value}
-    /></p>
-
-  })
 
   useEffect(() => {
     getCategories();

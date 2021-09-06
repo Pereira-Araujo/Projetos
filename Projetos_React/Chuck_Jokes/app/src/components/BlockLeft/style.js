@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {search,border} from '../../style/colors'
 
 export const Container = styled.section`
   margin-left: 2rem;
@@ -24,7 +25,7 @@ export const SearchContainer = styled.form`
   margin-top: 0.5rem;
 `;
 export const Search = styled.input`
-  border: coral solid 1px;
+  border: ${search} solid 1px;
   outline: none;
   padding: 0.5rem;
   width: 16rem;
@@ -36,7 +37,6 @@ export const TagContainer = styled.section`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: whitesmoke;
   cursor:pointer;
 
 `;
@@ -45,7 +45,7 @@ export const RandomButtom = styled.section`
   width: 19rem;
   padding: 1rem;
   text-align: center;
-  border: 1px solid orange;
+  border: 1px solid ${border};
   cursor:pointer;
   
 `;
@@ -53,7 +53,7 @@ export const RandomButtom = styled.section`
 export const ButtonSearch = styled.button`
 background: none;
 border: none;
-border: 1px solid orange;
+border: 1px solid ${border};
 padding: 0.5rem;
 width: 3.7rem;
 `
