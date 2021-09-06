@@ -20,18 +20,9 @@ export const getAsync = async (path, set, element, setBool, booleanResp) => {
   setBool(booleanResp);
 };
 
-export const searchFunction = (
-  event,
-  path,
-  set,
-  setBool,
-  booleanResp,
-  element
-) => {
-  event.preventDefault();
-
+export const searchFunction = (path, element, setBool, booleanResp, set) => {
   axios.get(`${BASE_URL}${path}${element}`).then((response) => {
     setBool(booleanResp);
-    set(response.data.result.slice(0, 10)); // tratando os resultado
+    set((response.data.result).slice(0, 10)); // tratando os resultado
   });
 };

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-
+import axios from 'axios'
+import BASE_URL from "../services/constant/url";
 import useInput from "../hooks/useInput";
 import useMark from '../hooks/useMark'
 
@@ -10,7 +11,7 @@ import { Container, ChuckCaracter, Tag } from "./style";
 import Chuck_Avatar from "../assets/chuck_image.png";
 import Chuck_Logo from "../assets/logo_chuck.png";
 
-import { getMethod, getAsync, getMethodValue, searchFunction } from '../api/index'
+import { getMethod, getAsync, getMethodValue, searchFunction } from '../services/api/index'
 
 function Home() {
   let jokeCategory;
@@ -22,8 +23,12 @@ function Home() {
     <ChuckCaracter src={Chuck_Logo} alt="Desenho do Chuck Norris" />
   );
 
+  const find = (event) => {
+    event.preventDefault();
 
-  const find = () => searchFunction('search?query=$', setFilter, setChange, true, search)
+    return searchFunction('search?query=', search, setChange, true, setFilter)
+  };
+
   const searchFiltered = useMark(filter, search)
   const getCategories = () => getMethod('categories', setCategories)
   const getRandom = () => getMethodValue('random', setRandom, setChange, false)
