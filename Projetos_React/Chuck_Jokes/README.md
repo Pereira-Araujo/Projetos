@@ -15,6 +15,7 @@
 
 ### Libs
 
+ - [React-highlight-words](https://github.com/bvaughn/react-highlight-words)
  - [Axios](https://axios-http.com/)
  - [Styled-components](https://styled-components.com/)
 
