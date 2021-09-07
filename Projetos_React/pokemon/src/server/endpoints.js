@@ -1,0 +1,1 @@
+export const pokemonList = "?limit=10&offset=0"

@@ -1,11 +1,13 @@
-import PokemonHome from './pages/home/pokemonHome'
+import React from 'react';
+import Router from './router/Router';
+import GlobalState from "./global/GlobalState"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <PokemonHome/>
-     </div>
+    <GlobalState>
+      <Router />
+    </GlobalState>
   );
-}
+};
 
 export default App;
