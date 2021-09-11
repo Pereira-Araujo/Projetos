@@ -1,1 +1,3 @@
-export const pokemonList = "?limit=10&offset=0"
+
+export const endpointList = (qtd) => `?limit=${qtd}&offset=0`
+
