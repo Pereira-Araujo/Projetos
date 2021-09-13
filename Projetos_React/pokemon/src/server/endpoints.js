@@ -1,3 +1,3 @@
 
-export const endpointList = (qtd,start) => `?limit=${qtd}&offset=${start}`
+export const endpointList = (qtd) => `?limit=${qtd}&offset=0`
 

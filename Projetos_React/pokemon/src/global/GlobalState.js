@@ -7,39 +7,42 @@ import { BASE_URL } from "../server/URL";
 const GlobalState = (props) => {
   const [pokemons, setPokemons] = useState([]);
   const [pokeBase, setPokeBase] = useState([]);
-  const [start, setStart] = useState(0);
-  const [quantity, setQuantity] = useState(10);
+  const [begin, setBegin] = useState(0);
+  const [page, setPage] = useState(10);
 
   const pokeBaseList = () => {
     axios
-      .get(`${BASE_URL}${endpointList(quantity,start)}`)
+      .get(`${BASE_URL}${endpointList(page)}`)
       .then((replication) => setPokeBase(replication.data.results))
       .catch((error) => console.log(error));
   };
 
-
   useEffect(() => {
     pokeBaseList();
+  }, []);
 
+  useEffect(() => {
     let pokemonData = [];
 
     pokeBase.forEach((creature) => {
       axios.get(creature.url).then((replication) => {
         pokemonData.push(replication.data);
+        if (pokemonData.length === page) {
           setPokemons(pokemonData);
+        }
       });
     });
-  }, [pokeBase,setPokeBase]);
+  }, [pokeBase]);
 
   const dataPokemon = {
     pokemons,
     setPokemons,
     pokeBase,
     setPokeBase,
-    quantity,
-    setQuantity,
-    start,
-    setStart,
+    page,
+    setPage,
+    begin,
+    setBegin,
   };
 
   return (
