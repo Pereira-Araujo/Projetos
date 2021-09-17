@@ -1,10 +1,5 @@
 import styled from "styled-components";
-import {
-  poke_primary,
-  poke_secondary,
-  poke_text,
-  text_white,
-} from "../../constants/colors";
+import { poke_primary, text_white, poke_text } from "../../constants/colors";
 
 export const PokeMenu = styled.main`
   display: flex;
@@ -24,6 +19,11 @@ export const PokeMenu = styled.main`
     display: flex;
     li {
       font-weight: 600;
+      cursor:pointer;
+
+      &:hover {
+        color: ${poke_text};
+      }
     }
 
     & :nth-child(1) {
