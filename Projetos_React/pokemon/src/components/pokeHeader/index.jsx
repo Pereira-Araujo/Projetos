@@ -5,11 +5,13 @@ const PokeHeader = (props) => {
     return (
 
         <PokeMenu >
-            <h1>{props.title}</h1>
+
+            <h1>Pokemon</h1>
             <ul>
-                <li>{props.firstLink}</li>
-                <li>{props.secondLink}</li>
+                <li onClick={props.path_one}>Início</li>
+                <li onClick={props.path_two}>Escolhas</li>
             </ul>
+
         </PokeMenu>)
 }
 

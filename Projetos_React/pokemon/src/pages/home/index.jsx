@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import GlobalStateContext from "../../global/GlobalContext";
-import PokeHeader from '../../components/pokeHeader/index'
 
 const PokemonHome = () => {
     const pokemons = useContext(GlobalStateContext);
@@ -17,9 +16,6 @@ const PokemonHome = () => {
 
     return (
         <main>
-            <PokeHeader
-            firstLink={'oi'}
-            secondLink={'fui'}/>
             {pokemons.pokeBase.map((creature) => {
                 return <h3 key={creature.name}>{creature.name}</h3>
             })}
@@ -36,6 +32,7 @@ const PokemonHome = () => {
                 <li onClick={() => page(30)}>4</li>
                 <li onClick={() => page(40)}>5</li>
             </ul>
+
         </main>
 
 
