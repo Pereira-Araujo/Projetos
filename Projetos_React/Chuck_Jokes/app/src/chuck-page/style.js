@@ -9,10 +9,9 @@ export const Container = styled.main`
   justify-content: center;
 
   @media (max-width: 980px) {
-    flex-direction: column;
+    flex-direction:column-reverse;
     align-items: center;
     justify-content: center;
-    height:160vh;
   }
 `
  export const BlockLeft = styled.section`
@@ -72,6 +71,8 @@ export const Container = styled.main`
     padding: 1rem;
     text-align: center;
     border: 1px solid orange;
+
+ 
     `
 
 /* */
