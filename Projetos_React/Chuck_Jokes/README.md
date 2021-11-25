@@ -1,6 +1,6 @@
 # Chuck Joke Norris Page
 
-:construction: App passando por **refatoração**
+:construction: App passando por **REFATORAÇÃO**
 
 - A página retorna frases supostamente proferidas por Chuck Norris :
   - Seja de modo **aleatório**
