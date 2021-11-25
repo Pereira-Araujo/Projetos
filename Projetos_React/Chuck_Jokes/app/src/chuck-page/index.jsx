@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import axios from 'axios'
-import BASE_URL from "../services/constant/url";
+
 import useInput from "../hooks/useInput";
 import useMark from '../hooks/useMark'
 
@@ -30,6 +29,7 @@ function Home() {
   };
 
   const searchFiltered = useMark(filter, search)
+  
   const getCategories = () => getMethod('categories', setCategories)
   const getRandom = () => getMethodValue('random', setRandom, setChange, false)
 

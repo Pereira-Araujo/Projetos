@@ -3,21 +3,32 @@ import { backgroundDefault } from '../../style/colors';
 
 export const Container = styled.main`
 	width: 60%;
-	height: 90%;
+	height: 44rem;
 	background: ${backgroundDefault};
 	padding: 1rem;
 	border-radius: 5%;
-	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	overflow-y: auto;
 
+	div {
+		text-align: center;
+		padding: 0.5rem;
+	}
+	section {
+		@media (max-width: 980px) {
+			margin-top: 3rem;
+			padding: 1rem;
+		}
+	}
+
 	@media (max-width: 980px) {
-		margin: 0;
 		text-align: center;
 		width: 100%;
-		height:35rem;
+		min-height: 10rem;
+		border-radius: 0;
+		display: block;
 	}
 `;

@@ -50,6 +50,10 @@ export const TagContainer = styled.section`
 	justify-content: space-around;
 	flex-wrap: wrap;
 	cursor: pointer;
+
+	@media (max-width: 980px) {
+		cursor: none;
+	}
 `;
 
 export const RandomButtom = styled.section`
@@ -66,6 +70,8 @@ export const ButtonSearch = styled.button`
 	border: 1px solid ${border};
 	padding: 0.5rem;
 	width: 3.7rem;
+	cursor: pointer;
+
 `;
 
 /* */

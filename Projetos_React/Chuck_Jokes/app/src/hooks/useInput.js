@@ -5,6 +5,7 @@ function useInput(value) {
 
   const changeInput = (event) => {
     setInputValue(event.target.value);
+    
   };
 
   return [inputValue, changeInput];
