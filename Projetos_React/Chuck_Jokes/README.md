@@ -1,17 +1,21 @@
 # Chuck Joke Norris Page
-[**Acesse aqui**](https://chuck-norris-jokes.araujocoding.repl.co/)
 
-:construction:
+:construction: App passando por **refatoração**
 
 - A página retorna frases supostamente proferidas por Chuck Norris :
   - Seja de modo **aleatório**
   - Por **categoria**
   - Seja por **palavra pesquisada**
 
-- O resultado pode ser visto aqui <a href='https://chuck-norris-jokes.araujocoding.repl.co/'><img alt="Repl.it" src="https://img.shields.io/badge/Repl.it-%230D101E.svg?&style=for-the-badge&logo=Repl.it&logoColor=white"/></a>
-
 ### API
 - [**chuck-api**](https://api.chucknorris.io/#!)
+
+### O resultado: 
+
+- :sparkles:[**Aqui**](https://chuck-norris-jokes.araujocoding.repl.co/)
+
+
+
 
 ### Libs
 
@@ -20,6 +24,10 @@
  - [Styled-components](https://styled-components.com/)
 
 
-<img src='https://user-images.githubusercontent.com/60116988/117523130-7bf78280-af8d-11eb-9f3c-463ec075ab76.png'/>
+### Imagens
+
+
+![responsive](https://user-images.githubusercontent.com/60116988/143334817-e0b1612f-25f7-4ec7-8af6-061a8253b83d.png)
 
 <img src='https://user-images.githubusercontent.com/60116988/118334966-fcb20380-b4e4-11eb-95ec-a274c3bb4ee3.png'/>
+
