@@ -1,11 +1,16 @@
 import styled from 'styled-components';
-import { search, border } from '../../style/colors';
+import { search, border, title } from '../../style/colors';
 
 export const Container = styled.section`
 	width: 30%;
 	@media (max-width: 980px) {
 		margin: none;
 		width: 100%;
+	}
+	h1 {
+		font-size: 2.2rem;
+		color: ${title};
+		font-weight: 800;
 	}
 
 	section {
@@ -62,6 +67,10 @@ export const RandomButtom = styled.section`
 	text-align: center;
 	border: 1px solid ${border};
 	cursor: pointer;
+	&:hover {
+		background: ${title};
+		color: white;
+	}
 `;
 
 export const ButtonSearch = styled.button`
@@ -71,7 +80,10 @@ export const ButtonSearch = styled.button`
 	padding: 0.5rem;
 	width: 3.7rem;
 	cursor: pointer;
-
+	&:hover {
+		background: ${title};
+		color: white;
+	}
 `;
 
 /* */

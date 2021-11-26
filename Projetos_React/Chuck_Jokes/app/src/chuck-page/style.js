@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { title } from '../style/colors';
 export const Container = styled.main`
 	height: 100vh;
 	width: 100vw;
@@ -20,15 +20,19 @@ export const ChuckCaracter = styled.img`
 	width: 30rem;
 	height: 20rem;
 
-  @media(max-width:980px){
-    width:18rem;
-    height:10rem;
-	
-  }
+	@media (max-width: 980px) {
+		width: 18rem;
+		height: 10rem;
+	}
 `;
 
 export const Tag = styled.p`
 	border: 1px solid orange;
 	padding: 0.5rem;
 	margin-top: 0;
+
+	&:hover {
+		background: ${title};
+		color:white;
+	}
 `;
