@@ -49,7 +49,7 @@ function Home() {
   const categoriesMapped = categories.map((nameCategory) => {
     return (
       <Tag key={nameCategory} onClick={() => changeCategories(nameCategory)}>
-        {nameCategory}
+        {nameCategory.toUpperCase()}
       </Tag>
     );
   });

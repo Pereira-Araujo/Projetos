@@ -19,7 +19,6 @@ export const Container = styled.main`
 	}
 	section {
 		@media (max-width: 980px) {
-			margin-top: 3rem;
 			padding: 1rem;
 		}
 	}
@@ -30,5 +29,6 @@ export const Container = styled.main`
 		min-height: 10rem;
 		border-radius: 0;
 		display: block;
+		overflow: auto;
 	}
 `;

@@ -21,10 +21,10 @@ function BlockLeft(props) {
 			<section>
 				<SearchContainer onSubmit={props.callFind}>
 					<Search placeholder={'search'} onChange={props.callChange} value={props.callValue} />
-					<ButtonSearch type={'submit'}>go</ButtonSearch>
+					<ButtonSearch type={'submit'}>GO</ButtonSearch>
 				</SearchContainer>
 				<TagContainer>{props.callRandomText}</TagContainer>
-				<RandomButtom onClick={props.callRandom}>Random</RandomButtom>
+				<RandomButtom onClick={props.callRandom}>RANDOM</RandomButtom>
 			</section>
 		</Container>
 	);

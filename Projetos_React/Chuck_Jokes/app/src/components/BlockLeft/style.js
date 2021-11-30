@@ -1,8 +1,10 @@
 import styled from 'styled-components';
-import { search, border, title } from '../../style/colors';
+import { search, border, title, text } from '../../style/colors';
 
 export const Container = styled.section`
 	width: 30%;
+	color: ${text};
+
 	@media (max-width: 980px) {
 		margin: none;
 		width: 100%;
@@ -18,10 +20,6 @@ export const Container = styled.section`
 			display: flex;
 			align-items: center;
 			flex-direction: column;
-
-			h1 {
-				display: none;
-			}
 		}
 	}
 `;
@@ -31,6 +29,10 @@ export const Card = styled.div`
 	flex-direction: column;
 	align-items: center;
 	cursor: pointer;
+
+	@media (max-width: 980px) {
+		width: 100vw;
+	}
 `;
 export const ChuckPhoto = styled.img`
 	width: 20rem;
@@ -48,14 +50,13 @@ export const Search = styled.input`
 	width: 16rem;
 `;
 export const TagContainer = styled.section`
-	width: 20rem;
+	width: 21rem;
 	height: 14rem;
-	padding: 0.5rem;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	cursor: pointer;
-
+	margin-top: 0.5rem;
 	@media (max-width: 980px) {
 		cursor: none;
 	}
@@ -67,6 +68,8 @@ export const RandomButtom = styled.section`
 	text-align: center;
 	border: 1px solid ${border};
 	cursor: pointer;
+	font-weight: 600;
+
 	&:hover {
 		background: ${title};
 		color: white;
@@ -80,6 +83,9 @@ export const ButtonSearch = styled.button`
 	padding: 0.5rem;
 	width: 3.7rem;
 	cursor: pointer;
+	font-weight: 600;
+	color: ${text};
+
 	&:hover {
 		background: ${title};
 		color: white;
