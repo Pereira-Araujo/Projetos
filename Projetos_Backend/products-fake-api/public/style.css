@@ -1,0 +1,16 @@
+code{
+    margin:0.5rem;
+    padding:2px;
+    font-size:14px;
+    font-style:italic;
+
+}
+main{
+    text-align:center;
+}
+ul li{
+    list-style: none;
+}
+.image{
+    width:30rem;
+}

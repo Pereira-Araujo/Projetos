@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product_code": "12154",
+      "product_category": "Eletrônico",
+      "product_name": "playstation-4",
+      "product_provider": "Sony",
+      "product_cost": "2700"
+    },
+    {
+      "id": 2,
+      "product_code": "36587",
+      "product_category": "Eletrônico",
+      "product_name": "megadrive",
+      "product_provider": "Sega",
+      "product_cost": "500"
+    },
+    {
+      "id": 3,
+      "product_code": "2365",
+      "product_category": "casa",
+      "product_name": "copos",
+      "product_provider": "VidrusLar",
+      "product_cost": "150"
+    },
+    {
+      "id": 4,
+      "product_code": "6598",
+      "product_category": "brinquedo",
+      "product_name": "Carrinho de controle remoto",
+      "product_provider": "Disney",
+      "product_cost": "125"
+    },
+    {
+      "id": 5,
+      "product_code": "15446",
+      "product_category": "Eletrônico",
+      "product_name": "playstation-5",
+      "product_provider": "Sony",
+      "product_cost": "5000"
+    }
+  ]
+}
