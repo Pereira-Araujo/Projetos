@@ -18,7 +18,7 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
 **<details><summary>Projetos React ⚛️</summary>**
 
-[**To-Do-List**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/Dolist)  **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/whats-lab) **|**[**Labe-Forms**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labenu-forms) **|** [**Astromach**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/AstroMach) **|** [**Chuck-Jokes**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/Chuck_Jokes)
+[**To-Do-List**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/Dolist)  **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/whats-lab) **|**[**Labe-Forms**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/labenu-forms) **|** [**Astromach**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/AstroMach) **|** [**Chuck-Jokes**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/Chuck_Jokes)
  
 
 </details>
