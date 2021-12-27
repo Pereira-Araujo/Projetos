@@ -9,23 +9,23 @@ O intuito desse repositório é reunir em um só lugar meus pequenos **projetos*
 
  **<details><summary>Projetos Vanilla🍦</summary>**
   
- [**OtherSide Store**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/OtherSide_Store) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Labetube)  **|** [**Luna Social Media**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/LunaSocialMedia) **|**  [**CheckList**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/CheckList) **|** [**Planner**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/planner)  **|** [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/projetoUpfour)
+ [**OtherSide Store**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/OtherSide_Store) **|** [**Re_Pedagogia**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/Re_Pedagogia) **|** [**Labetube**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/Labetube)  **|** [**Luna Social Media**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/LunaSocialMedia) **|**  [**CheckList**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/CheckList) **|** [**Planner**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/planner)  **|** [**Projeto Upfour**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/projetoUpfour)
 
-[**Contador de Palavras**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_Vanilla/Contador_Palavras)
+[**Contador de Palavras**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_Vanilla/Contador_Palavras)
 
 </details>
   
 
 **<details><summary>Projetos React ⚛️</summary>**
 
-[**To-Do-List**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/Dolist)  **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/whats-lab) **|**[**Labe-Forms**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/labenu-forms) **|** [**Astromach**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/AstroMach) **|** [**Chuck-Jokes**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_React/Chuck_Jokes)
+[**To-Do-List**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/Dolist)  **|** [**Whats-Lab**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/whats-lab) **|**[**Labe-Forms**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/labenu-forms) **|** [**Astromach**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/AstroMach) **|** [**Chuck-Jokes**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_React/Chuck_Jokes)
  
 
 </details>
 
 **<details><summary>Projetos C++ </summary>**
   
-  [**Forca**](https://github.com/Pereira-Araujo/Projetos/tree/main/Projetos_C%2B%2B/forca)
+  [**Forca**](https://github.com/Pereira-Araujo/Projetos/tree/main/ano_1/Projetos_C%2B%2B/forca)
 
 </details>
 
