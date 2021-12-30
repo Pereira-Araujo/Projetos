@@ -13,7 +13,7 @@ import {
   BotaoLimpar,
   BotaoCurtidos,
 } from "./estiloInterface";
-import logo from "../../img/logo.png";
+import logo from "../../assets/logo.png";
 
 const Interface = () => {
   const [perfil] = useState([]);
