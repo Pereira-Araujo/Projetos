@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { AfinidadesContainer, Lista, IconeNinguem } from "./estiloCurtidos";
+import { AfinidadesContainer, Lista, IconeNinguem } from "./styles";
 import IconeNinguemNaLista from "@material-ui/icons/SentimentVeryDissatisfied";
 
-const Curtidos = () => {
+const Macthes = () => {
   const [afinidades, setAfinidades] = useState([]);
 
   useEffect(() => {
@@ -46,4 +46,4 @@ const Curtidos = () => {
   );
 };
 
-export default Curtidos;
+export default Macthes;

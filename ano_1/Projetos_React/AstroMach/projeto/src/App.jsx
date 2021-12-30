@@ -1,5 +1,5 @@
 import React from "react";
-import Interface from "./Componentes/Interface/Interface";
+import Interface from "./components/Interface";
 
 
 const App = () => {

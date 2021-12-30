@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import PaginaInicial from "../PaginaInicial/PaginaInicial";
-import Curtidos from "../Curtidos/Curtidos";
+import Home from "../Home";
+import Macthes from "../Matches";
 import Voltar from "@material-ui/icons/ExitToAppOutlined";
 
 import {
@@ -12,7 +12,7 @@ import {
   Menu,
   BotaoLimpar,
   BotaoCurtidos,
-} from "./estiloInterface";
+} from "./styles";
 import logo from "../../assets/logo.png";
 
 const Interface = () => {
@@ -52,7 +52,7 @@ const Interface = () => {
           <BotaoCurtidos onClick={mudarPaginas}>{botaoCurtidos}</BotaoCurtidos>
         </Menu>
 
-        {paginaAtual ? <PaginaInicial /> : <Curtidos />}
+        {paginaAtual ? <Home /> : <Macthes />}
       </Card>
     </Container>
   );

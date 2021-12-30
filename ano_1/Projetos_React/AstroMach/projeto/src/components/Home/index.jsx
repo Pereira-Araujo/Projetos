@@ -9,9 +9,9 @@ import {
   Informacao,
   NomeIdade,
   ContainerBotoes,
-} from "./estiloInicio";
+} from "./styles";
 
-const PaginaInicial = () => {
+const Home = () => {
   const [listaPerfil, setListaPerfil] = useState([]);
 
   useEffect(() => {
@@ -86,4 +86,4 @@ const PaginaInicial = () => {
   );
 };
 
-export default PaginaInicial;
+export default Home;
