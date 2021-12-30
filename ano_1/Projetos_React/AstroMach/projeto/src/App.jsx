@@ -1,12 +1,10 @@
-import React from "react";
 import Interface from "./components/Interface";
-
-
+import GlobalState from "./global/GlobalState";
 const App = () => {
   return (
-    <div>
+    <GlobalState>
       <Interface />
-    </div>
+    </GlobalState>
 
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect,useContext } from "react";
 import axios from "axios";
 import BotaoSimNao from "@material-ui/core/Fab";
 import IconeCoracao from "@material-ui/icons/Favorite";
@@ -11,9 +11,10 @@ import {
   ContainerBotoes,
 } from "./styles";
 
+
 const Home = () => {
   const [listaPerfil, setListaPerfil] = useState([]);
-
+ 
   useEffect(() => {
     carregarPerfil();
   }, []);
