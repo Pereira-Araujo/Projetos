@@ -23,4 +23,4 @@
 
 ## 📝 Licença
 
-Para saber mais sobre Licença MIT: [LICENSE](LICENSE.md) 
+Para saber mais sobre Licença MIT: [LICENSE](https://opensource.org/licenses/MIT) 
