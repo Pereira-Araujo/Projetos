@@ -6,4 +6,8 @@ export const Container = styled.section`
   display: flex;
   justify-content: space-around;
   align-items:flex-end;
+
+  @media(max-width:380px){
+    height:6rem;
+  }
 `;
