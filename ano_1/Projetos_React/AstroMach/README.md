@@ -4,12 +4,12 @@
 
 ## 💻 Projeto
 
-#### Este projeto é inspirado Tinder, mas em uma versão mais divertida, utilizando a API da Labenu : Astromach
+#### Este projeto é no inspirado Tinder, mas em uma versão mais divertida, utilizando a API da Labenu : Astromach
 
 - O resultado pode ser conferido :arrow_right: [**AQUI**](https://dull-sort.surge.sh/)
 <h1 align="center">
 
-![astromach](https://user-images.githubusercontent.com/60116988/147890790-06c21357-6d31-4880-8b8d-a29b72041db2.png)
+<img src='https://user-images.githubusercontent.com/60116988/147890790-06c21357-6d31-4880-8b8d-a29b72041db2.png' width='50%'/>
 
 </h1>
 
