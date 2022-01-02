@@ -6,7 +6,7 @@
 
 #### Este projeto é inspirado Tinder, mas em uma versão mais divertida, utilizando a API da Labenu : Astromach
 
-- O resultado pode ser conferido :arrow_right: [**AQUI**](https://flagrant-pain.surge.sh/)
+- O resultado pode ser conferido :arrow_right: [**AQUI**](https://dull-sort.surge.sh/)
 <h1 align="center">
     <img alt="Astromach" title="Astromach" src="https://user-images.githubusercontent.com/60116988/147426997-753b101c-53dc-4b54-bb2a-63b5a75e44fc.png" />
 </h1>
