@@ -8,7 +8,9 @@
 
 - O resultado pode ser conferido :arrow_right: [**AQUI**](https://dull-sort.surge.sh/)
 <h1 align="center">
-    <img alt="Astromach" title="Astromach" src="https://user-images.githubusercontent.com/60116988/147426997-753b101c-53dc-4b54-bb2a-63b5a75e44fc.png" />
+
+![astromach](https://user-images.githubusercontent.com/60116988/147890790-06c21357-6d31-4880-8b8d-a29b72041db2.png)
+
 </h1>
 
 
