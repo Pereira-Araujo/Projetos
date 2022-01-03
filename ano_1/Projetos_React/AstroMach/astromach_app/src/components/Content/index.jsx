@@ -5,13 +5,6 @@ import { Container, Information } from "./styles";
 
 const Content = () => {
   const { isMatch } = useContext(Context);
-  // const isMatch = {
-  //   photo:'hh',
-  //   name:'jjj',
-  //   age:'dddd'
-  // ,
-  // bio:''
-  // }
 
   return (
     <Container>
